@@ -1,0 +1,312 @@
+{
+  "age_based_occupation_weights": [
+    {
+      "age_range": [0, 21],
+      "occupations": {
+        "Student": 5,
+        "Retail Salesperson": 2,
+        "Barista": 1,
+        "Waiter/Waitress": 1,
+        "Call Center Agent": 1,
+        "Unemployed": 1
+      }
+    },
+    {
+      "age_range": [22, 39],
+      "occupations": {
+        "Software Engineer": {
+          "weight": 3,
+          "suitability_factors": {
+            "hidden_attributes": {
+              "cognitive_style_score": [700, 950],
+              "internal_consistency": [80, 100],
+              "routine_predictability": [600, 900]
+            },
+            "hobbies_multipliers": {
+              "coding side projects": 5,
+              "attending tech meetups": 4,
+              "gaming": 3,
+              "building computers": 3,
+              "reading non-fiction": 2
+            },
+            "skills_multipliers": {
+              "programming": 5,
+              "debugging": 4,
+              "system design": 4,
+              "data analysis": 3,
+              "cloud computing": 3,
+              "problem-solving": 2,
+              "hello": 10, 
+              "Python": 10
+            },
+            "interests_multipliers": {
+              "technology": 5,
+              "robotics": 4,
+              "artificial intelligence": 4,
+              "futurism": 3
+            }
+          }
+        },
+        "Engineer": 3,
+        "Teacher": {
+          "weight": 2,
+          "suitability_factors": {
+            "hidden_attributes": {
+              "cognitive_style_score": [300, 600],
+              "communication_formality": [500, 800],
+              "performative_tendency": [400, 700]
+            },
+            "hobbies_multipliers": {
+              "reading": 4,
+              "volunteering": 3,
+              "learning new things": 3,
+              "educational games": 2
+            },
+            "skills_multipliers": {
+              "pedagogy": 5,
+              "curriculum development": 4,
+              "classroom management": 4,
+              "communication": 3,
+              "mentoring": 3
+            },
+            "interests_multipliers": {
+              "reading": 4,
+              "history": 3,
+              "science": 3,
+              "learning new languages": 2
+            }
+          }
+        },
+        "Accountant": 2,
+        "Journalist": 1,
+        "Marketing Specialist": 1,
+        "Doctor": {
+          "weight": 1,
+          "suitability_factors": {
+            "hidden_attributes": {
+              "cognitive_style_score": [800, 1000],
+              "impulse_control": [700, 950],
+              "internal_consistency": [90, 100]
+            },
+            "hobbies_multipliers": {
+              "medical research": 4,
+              "attending conferences": 3,
+              "volunteering at clinics": 2
+            },
+            "skills_multipliers": {
+              "diagnosis": 5,
+              "patient care": 4,
+              "medical procedures": 4,
+              "critical thinking": 3,
+              "problem-solving": 3
+            },
+            "interests_multipliers": {
+              "science": 5,
+              "medical research": 4,
+              "volunteering": 3
+            }
+          }
+        },
+        "Lawyer": 1,
+        "Architect": 1,
+        "Banker": 1,
+        "Designer": 1,
+        "Photographer": 1,
+        "Musician": 1,
+        "Dancer": 1,
+        "Athlete": 1,
+        "Scientist": 1,
+        "Researcher": 1,
+        "Librarian": 1,
+        "Social Worker": 1,
+        "Psychologist": 1,
+        "Pharmacist": 1,
+        "Dentist": 1,
+        "Veterinarian": 1,
+        "Pilot": 1,
+        "Flight Attendant": 1,
+        "Police Officer": 1,
+        "Firefighter": 1,
+        "Military Personnel": 1,
+        "Fisherman": 1,
+        "Miner": 1,
+        "Factory Worker": 1,
+        "Call Center Agent": 1,
+        "Customer Service Representative": 1,
+        "Sales Manager": 1,
+        "Human Resources Manager": 1,
+        "IT Support Specialist": 1,
+        "Data Analyst": 1,
+        "Web Developer": 1,
+        "Graphic Designer": 1,
+        "Video Editor": 1,
+        "Editor": 1,
+        "Writer": 1,
+        "Translator": 1,
+        "Interpreter": 1,
+        "Event Planner": 1,
+        "Hotel Manager": 1,
+        "Restaurant Manager": 1,
+        "Barista": 1,
+        "Waiter/Waitress": 1,
+        "Bartender": 1,
+        "Chef": 1,
+        "Baker": 1,
+        "Butcher": 1,
+        "Farmer": 1,
+        "Gardener": 1,
+        "Florist": 1,
+        "Hairdresser": 1,
+        "Beautician": 1,
+        "Massage Therapist": 1,
+        "Personal Trainer": 1,
+        "Yoga Instructor": 1,
+        "Bus Driver": 1,
+        "Taxi Driver": 1,
+        "Truck Driver": 1,
+        "Delivery Driver": 1,
+        "Construction Worker": 1,
+        "Electrician": 1,
+        "Plumber": 1,
+        "Mechanic": 1,
+        "Welder": 1,
+        "Carpenter": 1,
+        "Painter": 1,
+        "Mason": 1,
+        "Roofer": 1,
+        "Landscaper": 1,
+        "Janitor": 1,
+        "Security Guard": 1,
+        "Cleaner": 1,
+        "Housewife": 1,
+        "Unemployed": 1,
+        "Artist": {
+          "weight": 1,
+          "suitability_factors": {
+            "hidden_attributes": {
+              "cognitive_style_score": [100, 400],
+              "performative_tendency": [600, 900],
+              "routine_predictability": [100, 400]
+            },
+            "hobbies_multipliers": {
+              "visiting art galleries": 4,
+              "attending concerts": 3,
+              "creative writing": 2,
+              "learning new instruments": 2
+            },
+            "skills_multipliers": {
+              "creativity": 5,
+              "visual communication": 4,
+              "storytelling": 3,
+              "software proficiency": 2
+            },
+            "interests_multipliers": {
+              "art galleries": 5,
+              "music": 4,
+              "theater": 3,
+              "movies": 2
+            }
+          }
+        }
+      }
+    },
+    {
+      "age_range": [40, 59],
+      "occupations": {
+        "Doctor": 3,
+        "Lawyer": 3,
+        "Architect": 2,
+        "Human Resources Manager": 2,
+        "Sales Manager": 2,
+        "Teacher": 1,
+        "Accountant": 1,
+        "Engineer": 1,
+        "Software Developer": 1,
+        "Journalist": 1,
+        "Marketing Specialist": 1,
+        "Banker": 1,
+        "Designer": 1,
+        "Photographer": 1,
+        "Musician": 1,
+        "Dancer": 1,
+        "Athlete": 1,
+        "Scientist": 1,
+        "Researcher": 1,
+        "Librarian": 1,
+        "Social Worker": 1,
+        "Psychologist": 1,
+        "Pharmacist": 1,
+        "Dentist": 1,
+        "Veterinarian": 1,
+        "Pilot": 1,
+        "Flight Attendant": 1,
+        "Police Officer": 1,
+        "Firefighter": 1,
+        "Military Personnel": 1,
+        "Fisherman": 1,
+        "Miner": 1,
+        "Factory Worker": 1,
+        "Call Center Agent": 1,
+        "Customer Service Representative": 1,
+        "Sales Manager": 1,
+        "Human Resources Manager": 1,
+        "IT Support Specialist": 1,
+        "Data Analyst": 1,
+        "Web Developer": 1,
+        "Graphic Designer": 1,
+        "Video Editor": 1,
+        "Editor": 1,
+        "Writer": 1,
+        "Translator": 1,
+        "Interpreter": 1,
+        "Event Planner": 1,
+        "Hotel Manager": 1,
+        "Restaurant Manager": 1,
+        "Barista": 1,
+        "Waiter/Waitress": 1,
+        "Bartender": 1,
+        "Chef": 1,
+        "Baker": 1,
+        "Butcher": 1,
+        "Farmer": 1,
+        "Gardener": 1,
+        "Florist": 1,
+        "Hairdresser": 1,
+        "Beautician": 1,
+        "Massage Therapist": 1,
+        "Personal Trainer": 1,
+        "Yoga Instructor": 1,
+        "Bus Driver": 1,
+        "Taxi Driver": 1,
+        "Truck Driver": 1,
+        "Delivery Driver": 1,
+        "Construction Worker": 1,
+        "Electrician": 1,
+        "Plumber": 1,
+        "Mechanic": 1,
+        "Welder": 1,
+        "Carpenter": 1,
+        "Painter": 1,
+        "Mason": 1,
+        "Roofer": 1,
+        "Landscaper": 1,
+        "Janitor": 1,
+        "Security Guard": 1,
+        "Cleaner": 1,
+        "Housewife": 1,
+        "Unemployed": 1
+      }
+    },
+    {
+      "age_range": [60, 120],
+      "occupations": {
+        "Retired": 5,
+        "Farmer": 2,
+        "Cleaner": 1,
+        "Gardener": 1,
+        "Fisherman": 1,
+        "Unemployed": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "occupations": [
+    {"name": "Accountant", "min_age": 21, "max_age": 65, "typical_education_level": "Bachelors", "gender_bias": {"male": 0.5, "female": 0.5}, "industry": "Finance"},
+    {"name": "Software Developer", "min_age": 21, "max_age": 65, "typical_education_level": "Bachelors", "gender_bias": {"male": 0.8, "female": 0.2}, "industry": "Technology",
+      "suitability_factors": {
+        "hidden_attributes": {
+          "cognitive_style_score": [700, 950],
+          "internal_consistency": [80, 100],
+          "routine_predictability": [600, 900]
+        },
+        "hobbies_multipliers": {
+          "coding side projects": 5,
+          "attending tech meetups": 4,
+          "gaming": 3,
+          "building computers": 3,
+          "reading non-fiction": 2
+        },
+        "skills_multipliers": {
+          "programming": 5,
+          "debugging": 4,
+          "system design": 4,
+          "data analysis": 3,
+          "cloud computing": 3,
+          "problem-solving": 2
+        }
+      }
+    },
+    {"name": "Teacher", "min_age": 22, "max_age": 65, "typical_education_level": "Bachelors", "gender_bias": {"female": 0.7, "male": 0.3}, "industry": "Education"},
+    {"name": "Doctor", "min_age": 25, "max_age": 68, "typical_education_level": "Doctorate", "gender_bias": {"male": 0.55, "female": 0.45}, "industry": "Healthcare"},
+    {"name": "Nurse", "min_age": 20, "max_age": 65, "typical_education_level": "Associates", "gender_bias": {"female": 0.9, "male": 0.1}, "industry": "Healthcare"},
+    {"name": "Retail Assistant", "min_age": 16, "max_age": 65, "typical_education_level": "High School", "gender_bias": {"female": 0.6, "male": 0.4}, "industry": "Retail"},
+    {"name": "Engineer", "min_age": 21, "max_age": 65, "typical_education_level": "Bachelors", "gender_bias": {"male": 0.9, "female": 0.1}, "industry": "Engineering"},
+    {"name": "Solicitor", "min_age": 24, "max_age": 70, "typical_education_level": "Masters", "gender_bias": {"male": 0.5, "female": 0.5}, "industry": "Legal"},
+    {"name": "Chef", "min_age": 18, "max_age": 65, "typical_education_level": "Vocational", "gender_bias": {"male": 0.7, "female": 0.3}, "industry": "Hospitality"},
+    {"name": "Construction Worker", "min_age": 18, "max_age": 65, "typical_education_level": "High School", "gender_bias": {"male": 0.98, "female": 0.02}, "industry": "Construction"},
+    {"name": "Police Officer", "min_age": 18, "max_age": 60, "typical_education_level": "High School", "gender_bias": {"male": 0.7, "female": 0.3}, "industry": "Law Enforcement"},
+    {"name": "Student", "min_age": 5, "max_age": 30, "typical_education_level": "Varies", "gender_bias": {"male": 0.5, "female": 0.5}, "industry": "Education"},
+    {"name": "Retired", "min_age": 60, "max_age": 100, "typical_education_level": "Varies", "gender_bias": {"male": 0.5, "female": 0.5}, "industry": "None"},
+    {"name": "Unemployed", "min_age": 16, "max_age": 65, "typical_education_level": "Varies", "gender_bias": {"male": 0.5, "female": 0.5}, "industry": "None"}
+  ]
+}

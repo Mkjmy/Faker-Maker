@@ -1,0 +1,133 @@
+/* Modern Dark Theme */
+
+/* Global styles */
+App {
+    background: #1a1a1a; /* Dark grey background */
+    color: #e0e0e0;      /* Light grey text */
+}
+
+Screen {
+    border: none;
+}
+
+/* Main App Layout */
+.grid-layout {
+    layout: grid;
+    grid-size: 2;
+    grid-columns: 1fr 2fr;
+    grid-rows: 1fr;
+    grid-gutter: 1;
+    height: 100%;
+}
+
+Header, Footer {
+    dock: top;
+    height: 3;
+    background: #1a1a1a; /* Dark grey background */
+    color: #00bfff;      /* Accent blue text */
+    /* border-bottom: solid #00bfff; /* Accent blue border for separation */
+}
+
+#input-pane {
+    border: none; /* Remove border */
+    padding: 0;
+}
+
+#output-pane {
+    border: none; /* Remove border */
+    padding: 0;
+}
+
+/* Input Grouping */
+.input-group {
+    margin-bottom: 1;
+}
+
+/* Widgets */
+Static {
+    margin-bottom: 0;
+    color: #e0e0e0; /* Light grey text */
+}
+
+Input {
+    width: 100%;
+    margin-bottom: 1;
+    background: #2a2a2a; /* Slightly lighter dark grey for input */
+    color: #e0e0e0;      /* Light grey text */
+    border: none; /* Remove border */
+}
+
+Select {
+    width: 100%;
+    margin-bottom: 1;
+    background: #2a2a2a; /* Slightly lighter dark grey for select */
+    color: #e0e0e0;      /* Light grey text */
+    border: none; /* Remove border */
+}
+
+Button {
+    width: 100%;
+    margin-top: 1;
+    background: transparent; /* Make background transparent */
+    color: #00bfff;      /* Accent blue text */
+    border: none; /* Remove border */
+}
+
+Button:hover {
+    background: transparent; /* Keep background transparent on hover */
+    color: #008cba;      /* Darker accent blue on hover */
+}
+
+#results {
+    height: 100%;
+    border: none; /* Remove border */
+    color: #e0e0e0; /* Light grey text */
+}
+
+#logo-display {
+    text-align: center;
+    margin-bottom: 1;
+    color: #00bfff; /* Accent blue for logo */
+}
+
+/* Main Menu Screen */
+#main-menu {
+    align: center middle;
+    height: 100%;
+    width: 100%;
+    border: none; /* Remove border */
+    overflow-y: hidden;
+}
+
+#main-menu Static {
+    text-align: center;
+    margin-bottom: 1;
+    color: #e0e0e0; /* Light grey text */
+}
+
+#main-menu Button {
+    
+    align: center middle; /* Center the content of the button */
+    
+    
+}
+
+/* Info Modal */
+#info-modal {
+    align: center middle;
+    width: 80%;
+    height: 80%;
+    background: #1a1a1a; /* Dark grey background */
+    border: none; /* Remove border */
+    padding: 1;
+    color: #e0e0e0; /* Light grey text */
+}
+
+#info-content {
+    padding: 1;
+    color: #e0e0e0; /* Light grey text */
+}
+
+#info-modal Button {
+    margin-top: 1;
+}

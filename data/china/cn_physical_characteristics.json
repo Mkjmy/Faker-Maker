@@ -1,0 +1,21 @@
+
+{
+  "physical_characteristics": {
+    "eye_colors": ["Brown", "Dark Brown", "Black"],
+    "natural_hair_colors": ["Black", "Dark Brown"],
+    "dyed_hair_colors": ["Black", "Brown", "Blonde", "Red", "Purple", "Blue"],
+    "hair_styles": ["Short", "Long", "Straight", "Wavy", "Bob"],
+    "height_ranges_cm": {
+      "male": {"min": 160, "max": 190},
+      "female": {"min": 150, "max": 180}
+    },
+    "build_types": ["Slim", "Average", "Athletic", "Petite"],
+    "distinguishing_marks": {
+      "tattoos": [],
+      "scars": [],
+      "birthmarks": [
+        {"description": "a mole", "location": "face"}
+      ]
+    }
+  }
+}

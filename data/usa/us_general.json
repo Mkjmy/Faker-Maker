@@ -1,0 +1,22 @@
+
+{
+  "region_name": "USA - General",
+  "region_id": "US_GENERAL",
+  "legal_marriage_age": 18,
+  "names_file": "usa/us_names.json",
+  "addresses_file": "usa/us_addresses.json",
+  "occupations_file": "usa/us_occupations.json",
+  "physical_characteristics_file": "usa/us_physical_characteristics.json",
+  "email_rules_file": "usa/us_email_rules.json",
+  "occupation_rules_file": "occupation_rules.json",
+  "physical_characteristics_rules_file": "physical_characteristics_rules.json",
+  "family_details_rules_file": "family_details_rules.json",
+  "hobbies_rules_file": "hobbies_rules.json",
+  "emails_file": "usa/us_emails.json",
+  "phone_numbers_file": "usa/us_phone_numbers.json",
+  "street_data_file": "usa/us_street_data.json",
+  "nicknames_file": "usa/us_nicknames.json",
+  "skills_interests_rules_file": "skills_interests_rules.json",
+  "unconventional_data_file": "unconventional_data.json",
+  "validation_data_file": "usa/us_validation_data.json"
+}

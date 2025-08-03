@@ -1,0 +1,40 @@
+
+{
+  "first_names_male": [
+    {"name": "Wei", "weight": 10},
+    {"name": "Fang", "weight": 9},
+    {"name": "Jian", "weight": 8},
+    {"name": "Jun", "weight": 7},
+    {"name": "Lei", "weight": 6},
+    {"name": "Qiang", "weight": 5},
+    {"name": "Tao", "weight": 4},
+    {"name": "Yong", "weight": 3},
+    {"name": "Bin", "weight": 2},
+    {"name": "Hao", "weight": 1}
+  ],
+  "first_names_female": [
+    {"name": "Fang", "weight": 10},
+    {"name": "Jing", "weight": 9},
+    {"name": "Li", "weight": 8},
+    {"name": "Wei", "weight": 7},
+    {"name": "Yan", "weight": 6},
+    {"name": "Na", "weight": 5},
+    {"name": "Min", "weight": 4},
+    {"name": "Ling", "weight": 3},
+    {"name": "Hong", "weight": 2},
+    {"name": "Juan", "weight": 1}
+  ],
+  "last_names": [
+    {"name": "Wang", "weight": 10},
+    {"name": "Li", "weight": 9},
+    {"name": "Zhang", "weight": 8},
+    {"name": "Liu", "weight": 7},
+    {"name": "Chen", "weight": 6},
+    {"name": "Yang", "weight": 5},
+    {"name": "Huang", "weight": 4},
+    {"name": "Zhao", "weight": 3},
+    {"name": "Wu", "weight": 2},
+    {"name": "Zhou", "weight": 1}
+  ],
+  "middle_names": []
+}

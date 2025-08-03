@@ -1,0 +1,65 @@
+
+{
+  "age_limits": {
+    "min_email_age": 13,
+    "max_email_age": 85,
+    "min_phone_age": 16,
+    "no_email_probability_young": 0.05,
+    "no_email_probability_old": 0.5
+  },
+  "email_generation_rules": [
+    {
+      "name": "13-17 years old",
+      "age_range": [13, 17],
+      "local_part_styles": {
+        "first_last_initial_year": 0.3,
+        "nickname_random_number": 0.3,
+        "first_name_random_number": 0.2,
+        "first_middle_last_initial_random_number": 0.2
+      },
+      "domains": {
+        "gmail.com": 0.7,
+        "yahoo.com": 0.2,
+        "aol.com": 0.1
+      }
+    },
+    {
+      "name": "18-24 years old",
+      "age_range": [18, 24],
+      "local_part_styles": {
+        "first_last_year": 0.4,
+        "first_last_dot_year": 0.3,
+        "first_name_last_name": 0.2,
+        "initials_year": 0.1
+      },
+      "domains": {
+        "gmail.com": 0.8,
+        "yahoo.com": 0.1,
+        "outlook.com": 0.1
+      }
+    },
+    {
+      "name": "25+ years old",
+      "age_range": [25, 120],
+      "local_part_styles": {
+        "first_last": 0.5,
+        "first_initial_last": 0.3,
+        "first_last_random_number": 0.2
+      },
+      "domains": {
+        "gmail.com": 0.6,
+        "yahoo.com": 0.1,
+        "outlook.com": 0.1,
+        "aol.com": 0.1,
+        "comcast.net": 0.1
+      }
+    }
+  ],
+  "default_domain_weights": {
+    "gmail.com": 0.7,
+    "yahoo.com": 0.1,
+    "outlook.com": 0.1,
+    "aol.com": 0.05,
+    "comcast.net": 0.05
+  }
+}

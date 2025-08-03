@@ -1,0 +1,53 @@
+{
+  "location_biases": [
+    {
+      "condition": {
+        "terrain_type": "Mountainous"
+      },
+      "attribute_biases": {
+        "routine_predictability": {"min_change": -100, "max_change": -50},
+        "impulse_control": {"min_change": -50, "max_change": 0},
+        "social_web_density": {"min_change": -80, "max_change": -30}
+      }
+    },
+    {
+      "condition": {
+        "economic_classification": "Rural"
+      },
+      "attribute_biases": {
+        "social_web_density": {"min_change": -150, "max_change": -80},
+        "communication_formality": {"min_change": -50, "max_change": 0},
+        "performative_tendency": {"min_change": -70, "max_change": -20}
+      }
+    },
+    {
+      "condition": {
+        "economic_classification": "Developed"
+      },
+      "attribute_biases": {
+        "social_web_density": {"min_change": 50, "max_change": 100},
+        "communication_formality": {"min_change": 0, "max_change": 50},
+        "performative_tendency": {"min_change": 30, "max_change": 80}
+      }
+    },
+    {
+      "condition": {
+        "terrain_type": "Coastal"
+      },
+      "attribute_biases": {
+        "social_web_density": {"min_change": 20, "max_change": 70},
+        "routine_predictability": {"min_change": -30, "max_change": 20}
+      }
+    },
+    {
+      "condition": {
+        "tourism_status": "High"
+      },
+      "attribute_biases": {
+        "social_web_density": {"min_change": 30, "max_change": 80},
+        "communication_formality": {"min_change": -20, "max_change": 30},
+        "performative_tendency": {"min_change": 20, "max_change": 70}
+      }
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "age_based_skills": [
+    {
+      "age_range": [0, 5],
+      "skills": [{"name": "basic motor skills"}, {"name": "object recognition"}, {"name": "simple communication"}]
+    },
+    {
+      "age_range": [6, 12],
+      "skills": [
+        {"name": "reading", "personality_trait_bias": {"min": 500, "max": 1000, "weight": 2}},
+        {"name": "writing"},
+        {"name": "basic math"},
+        {"name": "teamwork"},
+        {"name": "problem-solving", "personality_trait_bias": {"min": 0, "max": 500, "weight": 2}}
+      ]
+    },
+    {
+      "age_range": [13, 17],
+      "skills": [
+        {"name": "critical thinking", "personality_trait_bias": {"min": 600, "max": 1000, "weight": 2}},
+        {"name": "digital literacy", "personality_trait_bias": {"min": 0, "max": 400, "weight": 2}},
+        {"name": "communication"},
+        {"name": "time management"}
+      ]
+    },
+    {
+      "age_range": [18, 25],
+      "skills": [{"name": "adaptability"}, {"name": "networking"}, {"name": "financial literacy"}, {"name": "job searching"}]
+    },
+    {
+      "age_range": [26, 40],
+      "skills": [{"name": "leadership"}, {"name": "mentoring"}, {"name": "strategic planning"}, {"name": "negotiation"}]
+    },
+    {
+      "age_range": [41, 60],
+      "skills": [{"name": "management"}, {"name": "conflict resolution"}, {"name": "succession planning"}, {"name": "wisdom sharing"}]
+    },
+    {
+      "age_range": [61, 120],
+      "skills": [{"name": "storytelling"}, {"name": "gardening"}, {"name": "crafting"}, {"name": "community involvement"}]
+    }
+  ],
+  "occupation_based_skills": [
+    {
+      "occupations": ["Software Developer", "Engineer", "Data Analyst", "IT Support Specialist", "Web Developer"],
+      "skills": [{"name": "programming"}, {"name": "debugging"}, {"name": "system design"}, {"name": "data analysis"}, {"name": "cloud computing"}]
+    },
+    {
+      "occupations": ["Teacher", "Librarian"],
+      "skills": [{"name": "pedagogy"}, {"name": "curriculum development"}, {"name": "classroom management"}, {"name": "research"}]
+    },
+    {
+      "occupations": ["Doctor", "Nurse", "Pharmacist", "Dentist", "Veterinarian", "Psychologist"],
+      "skills": [{"name": "diagnosis"}, {"name": "patient care"}, {"name": "medical procedures"}, {"name": "counseling"}]
+    },
+    {
+      "occupations": ["Artist", "Designer", "Photographer", "Musician", "Dancer", "Writer", "Graphic Designer", "Video Editor"],
+      "skills": [{"name": "creativity"}, {"name": "visual communication"}, {"name": "storytelling"}, {"name": "performance"}, {"name": "software proficiency"}]
+    }
+  ],
+  "interests": [
+    "reading", "traveling", "cooking", "hiking", "gaming", "photography", "music", "sports",
+    "learning new languages", "volunteering", "coding", "gardening", "painting", "writing",
+    "meditation", "yoga", "fitness", "history", "science", "politics", "current events",
+    "fashion", "movies", "theater", "concerts", "museums", "art galleries", "collecting",
+    "DIY projects", "woodworking", "knitting", "baking", "fishing", "hunting", "camping",
+    "astronomy", "bird watching", "environmentalism", "animal welfare", "social justice",
+    "technology", "robotics", "artificial intelligence", "space exploration", "futurism"
+  ]
+}

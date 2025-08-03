@@ -1,0 +1,4 @@
+{
+  "valid_marital_statuses": ["Single", "Married", "Divorced", "Widowed"],
+  "valid_education_levels": ["High School", "Associates", "Bachelors", "Masters", "Doctorate", "None", "Varies"]
+}

@@ -1,0 +1,50 @@
+{
+  "first_names_male": [
+    {"name": "David", "weight": 9},
+    {"name": "John", "weight": 8},
+    {"name": "Paul", "weight": 8},
+    {"name": "Mark", "weight": 7},
+    {"name": "James", "weight": 7},
+    {"name": "Andrew", "weight": 6},
+    {"name": "Steven", "weight": 6},
+    {"name": "Robert", "weight": 5},
+    {"name": "Michael", "weight": 5},
+    {"name": "Christopher", "weight": 4}
+  ],
+  "first_names_female": [
+    {"name": "Susan", "weight": 9},
+    {"name": "Sarah", "weight": 8},
+    {"name": "Karen", "weight": 8},
+    {"name": "Julie", "weight": 7},
+    {"name": "Emma", "weight": 7},
+    {"name": "Claire", "weight": 6},
+    {"name": "Nicola", "weight": 6},
+    {"name": "Samantha", "weight": 5},
+    {"name": "Michelle", "weight": 5},
+    {"name": "Joanne", "weight": 4}
+  ],
+  "last_names": [
+    {"name": "Smith", "weight": 10},
+    {"name": "Jones", "weight": 9},
+    {"name": "Taylor", "weight": 8},
+    {"name": "Brown", "weight": 7},
+    {"name": "Williams", "weight": 6},
+    {"name": "Wilson", "weight": 5},
+    {"name": "Johnson", "weight": 4},
+    {"name": "Davies", "weight": 3},
+    {"name": "Robinson", "weight": 2},
+    {"name": "Wright", "weight": 1}
+  ],
+  "middle_names": [
+    {"name": "James", "weight": 10},
+    {"name": "John", "weight": 9},
+    {"name": "William", "weight": 8},
+    {"name": "Thomas", "weight": 7},
+    {"name": "David", "weight": 6},
+    {"name": "Robert", "weight": 5},
+    {"name": "Michael", "weight": 4},
+    {"name": "George", "weight": 3},
+    {"name": "Joseph", "weight": 2},
+    {"name": "Charles", "weight": 1}
+  ]
+}

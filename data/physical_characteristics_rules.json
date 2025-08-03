@@ -1,0 +1,124 @@
+{
+  "hair_color_rules": [
+    {
+      "age_range": [0, 39],
+      "colors": {
+        "Black": 0.7,
+        "Dark Brown": 0.2,
+        "Brown": 0.1
+      }
+    },
+    {
+      "age_range": [40, 59],
+      "colors": {
+        "Black": 0.5,
+        "Dark Brown": 0.2,
+        "Brown": 0.1,
+        "Gray": 0.2
+      }
+    },
+    {
+      "age_range": [60, 120],
+      "colors": {
+        "Black": 0.1,
+        "Dark Brown": 0.1,
+        "Brown": 0.1,
+        "Gray": 0.7,
+        "White": 0.1
+      }
+    }
+  ],
+  "build_type_rules": [
+    {
+      "age_range": [0, 24],
+      "builds": {
+        "Slim": 0.4,
+        "Average": 0.4,
+        "Slender": 0.2
+      }
+    },
+    {
+      "age_range": [25, 39],
+      "builds": {
+        "Slim": 0.1,
+        "Average": 0.5,
+        "Athletic": 0.3,
+        "Muscular": 0.1
+      }
+    },
+    {
+      "age_range": [40, 59],
+      "builds": {
+        "Average": 0.4,
+        "Athletic": 0.2,
+        "Muscular": 0.1,
+        "Heavy": 0.3
+      }
+    },
+    {
+      "age_range": [60, 120],
+      "builds": {
+        "Average": 0.3,
+        "Heavy": 0.5,
+        "Slim": 0.1,
+        "Curvy": 0.1
+      }
+    }
+  ],
+  "distinguishing_mark_probabilities": {
+    "tattoos": {
+      "base_probability": 0.1,
+      "age_multiplier": 0.005
+    },
+    "scars": {
+      "base_probability": 0.05,
+      "age_multiplier": 0.003
+    },
+    "birthmarks": {
+      "base_probability": 0.02,
+      "age_multiplier": 0.001
+    }
+  },
+  "height_rules_cm": [
+    {
+      "age_range": [0, 1],
+      "male": {"min": 45, "max": 80},
+      "female": {"min": 44, "max": 78}
+    },
+    {
+      "age_range": [2, 3],
+      "male": {"min": 85, "max": 100},
+      "female": {"min": 83, "max": 98}
+    },
+    {
+      "age_range": [4, 5],
+      "male": {"min": 100, "max": 115},
+      "female": {"min": 98, "max": 113}
+    },
+    {
+      "age_range": [6, 8],
+      "male": {"min": 115, "max": 135},
+      "female": {"min": 113, "max": 133}
+    },
+    {
+      "age_range": [9, 11],
+      "male": {"min": 135, "max": 155},
+      "female": {"min": 133, "max": 153}
+    },
+    {
+      "age_range": [12, 14],
+      "male": {"min": 155, "max": 175},
+      "female": {"min": 153, "max": 170}
+    },
+    {
+      "age_range": [15, 17],
+      "male": {"min": 170, "max": 185},
+      "female": {"min": 160, "max": 175}
+    },
+    {
+      "age_range": [18, 120],
+      "male": {"min": 165, "max": 190},
+      "female": {"min": 155, "max": 175}
+    }
+  ]
+}

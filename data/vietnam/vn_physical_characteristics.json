@@ -1,0 +1,76 @@
+{
+  "physical_characteristics": {
+    "eye_colors": ["Brown", "Dark Brown", "Black", "Hazel", "Green", "Blue"],
+    "natural_hair_colors": ["Black", "Dark Brown", "Brown", "Auburn", "Blonde", "Red", "Gray", "White"],
+    "dyed_hair_colors": ["Brown", "Blonde", "Red", "Smoky Gray", "Blue", "Green", "Purple", "Pink", "Orange", "Silver", "Platinum", "Rainbow"],
+    "hair_styles": ["Short", "Long", "Straight", "Wavy", "Curly", "Buzz Cut", "Ponytail", "Bun", "Braids", "Dreadlocks", "Afro", "Spiky", "Undercut", "Bob", "Pixie", "Perm", "Extensions"],
+    "height_ranges_cm": {
+      "male": {"min": 140, "max": 200},
+      "female": {"min": 130, "max": 190}
+    },
+    "build_types": ["Slim", "Average", "Slender", "Athletic", "Muscular", "Heavy", "Curvy", "Petite", "Tall", "Stocky", "Lean", "Chubby", "Obese"],
+    "distinguishing_marks": {
+      "tattoos": [
+        {"description": "small symbol", "location": "wrist"},
+        {"description": "dragon", "location": "arm"},
+        {"description": "flower", "location": "shoulder"},
+        {"description": "tribal", "location": "back"},
+        {"description": "quote", "location": "ribs"},
+        {"description": "animal", "location": "leg"},
+        {"description": "geometric pattern", "location": "neck"},
+        {"description": "portrait", "location": "chest"},
+        {"description": "sleeve", "location": "arm"},
+        {"description": "full back piece", "location": "back"},
+        {"description": "minimalist design", "location": "finger"},
+        {"description": "watercolor", "location": "thigh"},
+        {"description": "traditional", "location": "calf"},
+        {"description": "new school", "location": "forearm"},
+        {"description": "blackwork", "location": "hand"},
+        {"description": "dotwork", "location": "ankle"},
+        {"description": "japanese style", "location": "shoulder blade"},
+        {"description": "mandala", "location": "upper arm"},
+        {"description": "script", "location": "collarbone"},
+        {"description": "abstract", "location": "hip"}
+      ],
+      "scars": [
+        {"description": "small cut", "location": "hand"},
+        {"description": "surgical", "location": "abdomen"},
+        {"description": "burn mark", "location": "arm"},
+        {"description": "facial scar", "location": "cheek"},
+        {"description": "keloid", "location": "earlobe"},
+        {"description": "stretch marks", "location": "thigh"},
+        {"description": "acne scars", "location": "face"},
+        {"description": "chickenpox scars", "location": "body"},
+        {"description": "accident scar", "location": "knee"},
+        {"description": "old injury", "location": "elbow"},
+        {"description": "self-harm scars", "location": "wrist"},
+        {"description": "c-section scar", "location": "lower abdomen"},
+        {"description": "appendectomy scar", "location": "lower right abdomen"},
+        {"description": "heart surgery scar", "location": "chest"},
+        {"description": "graft scar", "location": "various"},
+        {"description": "piercing scar", "location": "nose"},
+        {"description": "vaccination scar", "location": "upper arm"}
+      ],
+      "birthmarks": [
+        {"description": "a small mole", "location": "face"},
+        {"description": "port-wine stain", "location": "neck"},
+        {"description": "cafe au lait spot", "location": "arm"},
+        {"description": "strawberry mark", "location": "leg"},
+        {"description": "mongolian spot", "location": "lower back"},
+        {"description": "hemangioma", "location": "head"},
+        {"description": "nevus", "location": "back"},
+        {"description": "beauty mark", "location": "lip"},
+        {"description": "freckles", "location": "face"},
+        {"description": "beauty spot", "location": "cheek"},
+        {"description": "dark patch", "location": "shoulder"},
+        {"description": "light patch", "location": "hand"},
+        {"description": "irregular shape", "location": "chest"},
+        {"description": "raised mole", "location": "neck"},
+        {"description": "flat mole", "location": "arm"},
+        {"description": "hairy nevus", "location": "back"},
+        {"description": "vascular birthmark", "location": "face"},
+        {"description": "pigmented birthmark", "location": "leg"}
+      ]
+    }
+  }
+}

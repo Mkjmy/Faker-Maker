@@ -1,0 +1,24 @@
+{
+  "regions": [
+    {
+      "name": "USA - General",
+      "id": "US_GENERAL",
+      "file": "usa/us_general.json"
+    },
+    {
+      "name": "Vietnam - General",
+      "id": "VN_GENERAL",
+      "file": "vietnam/vn_general.json"
+    },
+    {
+      "name": "UK - General",
+      "id": "UK_GENERAL",
+      "file": "uk/uk_general.json"
+    },
+    {
+      "name": "China - General",
+      "id": "CN_GENERAL",
+      "file": "china/cn_general.json"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "age_based_hobbies": [
+    {
+      "age_range": [0, 5],
+      "hobbies": [
+        {"name": "playing with toys", "hidden_attribute_biases": {}},
+        {"name": "exploring", "hidden_attribute_biases": {}},
+        {"name": "listening to stories", "hidden_attribute_biases": {}},
+        {"name": "singing", "hidden_attribute_biases": {}},
+        {"name": "simple outdoor play", "hidden_attribute_biases": {}}
+      ]
+    },
+    {
+      "age_range": [6, 12],
+      "hobbies": [
+        {"name": "playing video games", "hidden_attribute_biases": {"cognitive_style_score": {"min": 500, "max": 1000, "weight": 2}}, "personality_trait_bias": {"min": 0, "max": 400, "weight": 2}},
+        {"name": "reading comics", "hidden_attribute_biases": {}},
+        {"name": "drawing", "hidden_attribute_biases": {"performative_tendency": {"min": 400, "max": 1000, "weight": 2}}},
+        {"name": "learning new things", "hidden_attribute_biases": {"cognitive_style_score": {"min": 600, "max": 1000, "weight": 2}}},
+        {"name": "team sports", "hidden_attribute_biases": {"social_web_density": {"min": 500, "max": 1000, "weight": 2}}}
+      ]
+    },
+    {
+      "age_range": [13, 17],
+      "hobbies": [
+        {"name": "playing video games", "hidden_attribute_biases": {"cognitive_style_score": {"min": 500, "max": 1000, "weight": 2}}},
+        {"name": "reading comics", "hidden_attribute_biases": {}},
+        {"name": "sports", "hidden_attribute_biases": {"social_web_density": {"min": 500, "max": 1000, "weight": 2}}},
+        {"name": "drawing", "hidden_attribute_biases": {"performative_tendency": {"min": 400, "max": 1000, "weight": 2}}},
+        {"name": "learning new things", "hidden_attribute_biases": {"cognitive_style_score": {"min": 600, "max": 1000, "weight": 2}}},
+        {"name": "social media", "hidden_attribute_biases": {"social_web_density": {"min": 700, "max": 1000, "weight": 3}}},
+        {"name": "music", "hidden_attribute_biases": {"performative_tendency": {"min": 300, "max": 1000, "weight": 2}}},
+        {"name": "fashion", "hidden_attribute_biases": {"performative_tendency": {"min": 500, "max": 1000, "weight": 2}}}
+      ]
+    },
+    {
+      "age_range": [18, 29],
+      "hobbies": [
+        {"name": "socializing", "hidden_attribute_biases": {"social_web_density": {"min": 600, "max": 1000, "weight": 3}}},
+        {"name": "traveling", "hidden_attribute_biases": {"routine_predictability": {"min": 0, "max": 400, "weight": 2}}},
+        {"name": "hiking", "hidden_attribute_biases": {}},
+        {"name": "coding", "hidden_attribute_biases": {"cognitive_style_score": {"min": 700, "max": 1000, "weight": 3}}},
+        {"name": "photography", "hidden_attribute_biases": {"performative_tendency": {"min": 400, "max": 1000, "weight": 2}}},
+        {"name": "music", "hidden_attribute_biases": {"performative_tendency": {"min": 300, "max": 1000, "weight": 2}}}
+      ]
+    },
+    {
+      "age_range": [30, 49],
+      "hobbies": [
+        {"name": "gardening", "hidden_attribute_biases": {"stability_index": {"min": 500, "max": 1000, "weight": 2}}},
+        {"name": "cooking", "hidden_attribute_biases": {}},
+        {"name": "home improvement", "hidden_attribute_biases": {"routine_predictability": {"min": 500, "max": 1000, "weight": 2}}},
+        {"name": "volunteering", "hidden_attribute_biases": {"social_web_density": {"min": 400, "max": 1000, "weight": 2}}},
+        {"name": "reading", "hidden_attribute_biases": {"cognitive_style_score": {"min": 500, "max": 1000, "weight": 2}}},
+        {"name": "fitness", "hidden_attribute_biases": {"impulse_control": {"min": 600, "max": 1000, "weight": 2}}}
+      ]
+    },
+    {
+      "age_range": [50, 120],
+      "hobbies": [
+        {"name": "gardening", "hidden_attribute_biases": {"stability_index": {"min": 500, "max": 1000, "weight": 2}}},
+        {"name": "reading", "hidden_attribute_biases": {"cognitive_style_score": {"min": 500, "max": 1000, "weight": 2}}},
+        {"name": "walking", "hidden_attribute_biases": {}},
+        {"name": "fishing", "hidden_attribute_biases": {"stability_index": {"min": 400, "max": 1000, "weight": 2}}},
+        {"name": "knitting", "hidden_attribute_biases": {"routine_predictability": {"min": 600, "max": 1000, "weight": 2}}},
+        {"name": "genealogy", "hidden_attribute_biases": {"cognitive_style_score": {"min": 700, "max": 1000, "weight": 3}}}
+      ]
+    }
+  ],
+  "occupation_based_hobbies": [
+    {
+      "occupations": ["Software Developer", "Engineer", "Data Analyst", "IT Support Specialist", "Web Developer"],
+      "hobbies": [
+        {"name": "coding side projects", "hidden_attribute_biases": {"cognitive_style_score": {"min": 700, "max": 1000, "weight": 4}}},
+        {"name": "attending tech meetups", "hidden_attribute_biases": {"social_web_density": {"min": 500, "max": 1000, "weight": 3}}},
+        {"name": "gaming", "hidden_attribute_biases": {"cognitive_style_score": {"min": 500, "max": 1000, "weight": 2}}},
+        {"name": "building computers", "hidden_attribute_biases": {"cognitive_style_score": {"min": 600, "max": 1000, "weight": 3}}}
+      ]
+    },
+    {
+      "occupations": ["Artist", "Designer", "Photographer", "Musician", "Dancer", "Writer", "Graphic Designer", "Video Editor"],
+      "hobbies": [
+        {"name": "visiting art galleries", "hidden_attribute_biases": {"performative_tendency": {"min": 500, "max": 1000, "weight": 3}}},
+        {"name": "attending concerts", "hidden_attribute_biases": {"performative_tendency": {"min": 400, "max": 1000, "weight": 2}}},
+        {"name": "creative writing", "hidden_attribute_biases": {"cognitive_style_score": {"min": 0, "max": 500, "weight": 2}}},
+        {"name": "learning new instruments", "hidden_attribute_biases": {"performative_tendency": {"min": 300, "max": 1000, "weight": 2}}}
+      ]
+    },
+    {
+      "occupations": ["Doctor", "Nurse", "Pharmacist", "Dentist", "Veterinarian", "Psychologist"],
+      "hobbies": [
+        {"name": "medical research", "hidden_attribute_biases": {"cognitive_style_score": {"min": 800, "max": 1000, "weight": 4}}},
+        {"name": "attending conferences", "hidden_attribute_biases": {"social_web_density": {"min": 500, "max": 1000, "weight": 2}}},
+        {"name": "volunteering at clinics", "hidden_attribute_biases": {"social_web_density": {"min": 400, "max": 1000, "weight": 2}}}
+      ]
+    },
+    {
+      "occupations": ["Teacher", "Librarian"],
+      "hobbies": [
+        {"name": "reading", "hidden_attribute_biases": {"cognitive_style_score": {"min": 500, "max": 1000, "weight": 2}}},
+        {"name": "tutoring", "hidden_attribute_biases": {"social_web_density": {"min": 400, "max": 1000, "weight": 2}}},
+        {"name": "educational games", "hidden_attribute_biases": {"cognitive_style_score": {"min": 400, "max": 900, "weight": 2}}}
+      ]
+    },
+    {
+      "occupations": ["Farmer", "Fisherman", "Gardener"],
+      "hobbies": [
+        {"name": "outdoor activities", "hidden_attribute_biases": {"stability_index": {"min": 500, "max": 1000, "weight": 2}}},
+        {"name": "animal care", "hidden_attribute_biases": {}},
+        {"name": "nature photography", "hidden_attribute_biases": {}}
+      ]
+    },
+    {
+      "occupations": ["Chef", "Baker", "Butcher", "Barista", "Waiter/Waitress", "Bartender"],
+      "hobbies": [
+        {"name": "cooking new recipes", "hidden_attribute_biases": {"performative_tendency": {"min": 300, "max": 1000, "weight": 2}}},
+        {"name": "food tasting", "hidden_attribute_biases": {}},
+        {"name": "mixology", "hidden_attribute_biases": {"performative_tendency": {"min": 400, "max": 1000, "weight": 2}}}
+      ]
+    }
+  ],
+  "education_based_hobbies": [
+    {
+      "education_levels": ["Bachelors", "Masters", "Doctorate"],
+      "hobbies": [
+        {"name": "reading non-fiction", "hidden_attribute_biases": {"cognitive_style_score": {"min": 700, "max": 1000, "weight": 3}}},
+        {"name": "documentaries", "hidden_attribute_biases": {"cognitive_style_score": {"min": 600, "max": 1000, "weight": 2}}},
+        {"name": "debating", "hidden_attribute_biases": {"communication_formality": {"min": 500, "max": 1000, "weight": 2}}},
+        {"name": "learning new languages", "hidden_attribute_biases": {"cognitive_style_score": {"min": 600, "max": 1000, "weight": 2}}}
+      ]
+    }
+  ]
+}

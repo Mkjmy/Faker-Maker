@@ -1,0 +1,387 @@
+{
+  "regions": [
+    {
+      "name": "England",
+      "capital": "London",
+      "regions": [
+        {
+          "name": "South East",
+          "geography": { "terrain_type": "Varied (coastal, rolling hills)", "is_mountainous": false },
+          "economy": { "gdp_per_capita_usd": 55000, "economic_classification": "Developed, High Income" },
+          "tourism_status": "High",
+          "administrative_units": [
+            {
+              "name": "Hampshire",
+              "type": "Non-Metropolitan County",
+              "sub_units": [
+                {
+                  "name": "Southampton",
+                  "type": "Unitary Authority (City)",
+                  "sub_units": [
+                    { "name": "City Centre", "type": "Ward", "streets": [ { "name": "High Street", "length_km": 1.2 }, { "name": "Above Bar Street", "length_km": 1.5 } ] },
+                    { "name": "Portswood", "type": "Ward", "streets": [ { "name": "Portswood Road", "length_km": 2.0 } ] }
+                  ]
+                },
+                {
+                  "name": "Winchester",
+                  "type": "City",
+                   "sub_units": [
+                    { "name": "St Michael", "type": "Ward", "streets": [ { "name": "High Street", "length_km": 1.0 }, { "name": "The Broadway", "length_km": 0.8 } ] }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Oxfordshire",
+              "type": "Non-Metropolitan County",
+              "sub_units": [
+                {
+                  "name": "Oxford",
+                  "type": "City",
+                  "sub_units": [
+                    { "name": "Carfax", "type": "Ward", "streets": [ { "name": "High Street", "length_km": 1.5 }, { "name": "Cornmarket Street", "length_km": 0.5 } ] }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Greater London",
+          "geography": { "terrain_type": "Flat, urban", "is_mountainous": false },
+          "economy": { "gdp_per_capita_usd": 70000, "economic_classification": "Developed, Global Financial Hub" },
+          "tourism_status": "Very High",
+          "administrative_units": [
+            {
+              "name": "City of Westminster",
+              "type": "London Borough",
+              "sub_units": [
+                { "name": "West End Ward", "type": "Ward", "streets": [ { "name": "Oxford Street", "length_km": 2.0 }, { "name": "Regent Street", "length_km": 1.5 } ] }
+              ]
+            },
+            {
+              "name": "Kensington and Chelsea",
+              "type": "London Borough",
+              "sub_units": [
+                { "name": "Holland Ward", "type": "Ward", "streets": [ { "name": "Kensington High Street", "length_km": 1.8 }, { "name": "Notting Hill Gate", "length_km": 1.2 } ] }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "North West",
+          "geography": { "terrain_type": "Varied (hills, plains, coastal)", "is_mountainous": true },
+          "economy": { "gdp_per_capita_usd": 45000, "economic_classification": "Developed" },
+          "tourism_status": "High",
+          "administrative_units": [
+            {
+              "name": "Greater Manchester",
+              "type": "Metropolitan County",
+              "sub_units": [
+                {
+                  "name": "Manchester",
+                  "type": "Metropolitan Borough (City)",
+                  "sub_units": [
+                    { "name": "Deansgate", "type": "Ward", "streets": [ { "name": "Deansgate", "length_km": 1.6 }, { "name": "King Street", "length_km": 0.7 } ] }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Merseyside",
+              "type": "Metropolitan County",
+              "sub_units": [
+                {
+                  "name": "Liverpool",
+                  "type": "Metropolitan Borough (City)",
+                  "sub_units": [
+                    { "name": "Riverside", "type": "Ward", "streets": [ { "name": "Bold Street", "length_km": 0.8 }, { "name": "Mathew Street", "length_km": 0.2 } ] }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "East of England",
+          "geography": { "terrain_type": "Low-lying, coastal fens", "is_mountainous": false },
+          "economy": { "gdp_per_capita_usd": 48000, "economic_classification": "Developed" },
+          "tourism_status": "Medium",
+          "administrative_units": [
+            {
+              "name": "Cambridgeshire",
+              "type": "Non-Metropolitan County",
+              "sub_units": [
+                {
+                  "name": "Cambridge",
+                  "type": "City",
+                  "sub_units": [
+                    { "name": "Market", "type": "Ward", "streets": [ { "name": "King's Parade", "length_km": 0.5 }, { "name": "Trinity Street", "length_km": 0.4 } ] }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "West Midlands",
+          "geography": { "terrain_type": "Urban, some hills", "is_mountainous": false },
+          "economy": { "gdp_per_capita_usd": 42000, "economic_classification": "Developed" },
+          "tourism_status": "Medium",
+          "administrative_units": [
+            {
+              "name": "West Midlands",
+              "type": "Metropolitan County",
+              "sub_units": [
+                {
+                  "name": "Birmingham",
+                  "type": "Metropolitan Borough (City)",
+                  "sub_units": [
+                    { "name": "Ladywood", "type": "Ward", "streets": [ { "name": "New Street", "length_km": 1.0 }, { "name": "Broad Street", "length_km": 1.5 } ] }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "South West",
+          "geography": { "terrain_type": "Coastal, moorland, rolling hills", "is_mountainous": true },
+          "economy": { "gdp_per_capita_usd": 46000, "economic_classification": "Developed" },
+          "tourism_status": "High",
+          "administrative_units": [
+            {
+              "name": "Bristol",
+              "type": "Unitary Authority (City)",
+              "sub_units": [
+                {
+                  "name": "Clifton",
+                  "type": "Ward",
+                  "streets": [ { "name": "Park Street", "length_km": 0.8 }, { "name": "Whiteladies Road", "length_km": 1.5 } ]
+                }
+              ]
+            },
+            {
+              "name": "Cornwall",
+              "type": "Unitary Authority",
+              "sub_units": [
+                {
+                  "name": "St Ives",
+                  "type": "Town",
+                  "sub_units": [
+                    { "name": "St Ives West", "type": "Ward", "streets": [ { "name": "Fore Street", "length_km": 0.5 } ] }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "East Midlands",
+          "geography": { "terrain_type": "Rolling hills, lowlands", "is_mountainous": false },
+          "economy": { "gdp_per_capita_usd": 43000, "economic_classification": "Developed" },
+          "tourism_status": "Medium",
+          "administrative_units": [
+            {
+              "name": "Nottinghamshire",
+              "type": "Non-Metropolitan County",
+              "sub_units": [
+                {
+                  "name": "Nottingham",
+                  "type": "Unitary Authority (City)",
+                  "sub_units": [
+                    { "name": "Castle", "type": "Ward", "streets": [ { "name": "Old Market Square", "length_km": 0.4 }, { "name": "Bridlesmith Gate", "length_km": 0.3 } ] }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Yorkshire and the Humber",
+          "geography": { "terrain_type": "Uplands (Pennines), valleys, coastline", "is_mountainous": true },
+          "economy": { "gdp_per_capita_usd": 41000, "economic_classification": "Developed" },
+          "tourism_status": "High",
+          "administrative_units": [
+            {
+              "name": "West Yorkshire",
+              "type": "Metropolitan County",
+              "sub_units": [
+                {
+                  "name": "Leeds",
+                  "type": "Metropolitan Borough (City)",
+                  "sub_units": [
+                    { "name": "City & Hunslet", "type": "Ward", "streets": [ { "name": "Briggate", "length_km": 0.6 }, { "name": "The Headrow", "length_km": 1.0 } ] }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "North Yorkshire",
+              "type": "Non-Metropolitan County",
+              "sub_units": [
+                {
+                  "name": "York",
+                  "type": "Unitary Authority (City)",
+                  "sub_units": [
+                    { "name": "Micklegate", "type": "Ward", "streets": [ { "name": "The Shambles", "length_km": 0.1 }, { "name": "Stonegate", "length_km": 0.4 } ] }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "North East",
+          "geography": { "terrain_type": "Hills, coastline, urban", "is_mountainous": true },
+          "economy": { "gdp_per_capita_usd": 38000, "economic_classification": "Developed" },
+          "tourism_status": "Medium",
+          "administrative_units": [
+            {
+              "name": "Tyne and Wear",
+              "type": "Metropolitan County",
+              "sub_units": [
+                {
+                  "name": "Newcastle upon Tyne",
+                  "type": "Metropolitan Borough (City)",
+                  "sub_units": [
+                    { "name": "Monument", "type": "Ward", "streets": [ { "name": "Grey Street", "length_km": 0.5 }, { "name": "Northumberland Street", "length_km": 0.8 } ] }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "County Durham",
+              "type": "Unitary Authority",
+              "sub_units": [
+                {
+                  "name": "Durham",
+                  "type": "City",
+                  "sub_units": [
+                    { "name": "Elvet & Gilesgate", "type": "Ward", "streets": [ { "name": "Saddler Street", "length_km": 0.3 } ] }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Scotland",
+      "capital": "Edinburgh",
+      "regions": [
+        {
+          "name": "Lothian",
+          "geography": { "terrain_type": "Coastal plains, hills", "is_mountainous": true },
+          "economy": { "gdp_per_capita_usd": 56000, "economic_classification": "Developed" },
+          "tourism_status": "Very High",
+          "administrative_units": [
+            {
+              "name": "City of Edinburgh",
+              "type": "Council Area",
+              "sub_units": [
+                {
+                  "name": "City Centre",
+                  "type": "Ward",
+                  "streets": [ { "name": "Princes Street", "length_km": 1.6 }, { "name": "Royal Mile", "length_km": 1.8 } ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Strathclyde",
+          "geography": { "terrain_type": "Lowlands, some highlands", "is_mountainous": true },
+          "economy": { "gdp_per_capita_usd": 48000, "economic_classification": "Developed" },
+          "tourism_status": "High",
+          "administrative_units": [
+            {
+              "name": "Glasgow City",
+              "type": "Council Area",
+              "sub_units": [
+                {
+                  "name": "Anderston/City/Yorkhill",
+                  "type": "Ward",
+                  "streets": [ { "name": "Buchanan Street", "length_km": 0.9 }, { "name": "Sauchiehall Street", "length_km": 2.4 } ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Wales",
+      "capital": "Cardiff",
+      "regions": [
+        {
+          "name": "South Wales",
+          "geography": { "terrain_type": "Valleys, coastal plains", "is_mountainous": true },
+          "economy": { "gdp_per_capita_usd": 40000, "economic_classification": "Developed" },
+          "tourism_status": "High",
+          "administrative_units": [
+            {
+              "name": "Cardiff",
+              "type": "Principal Area (City)",
+              "sub_units": [
+                {
+                  "name": "Cathays",
+                  "type": "Ward",
+                  "streets": [ { "name": "St Mary Street", "length_km": 0.7 }, { "name": "Queen Street", "length_km": 0.8 } ]
+                }
+              ]
+            },
+            {
+              "name": "Swansea",
+              "type": "Principal Area (City)",
+              "sub_units": [
+                {
+                  "name": "Castle",
+                  "type": "Ward",
+                  "streets": [ { "name": "Wind Street", "length_km": 0.4 } ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Northern Ireland",
+      "capital": "Belfast",
+      "regions": [
+        {
+          "name": "Ulster",
+          "geography": { "terrain_type": "Lough, hills", "is_mountainous": true },
+          "economy": { "gdp_per_capita_usd": 43000, "economic_classification": "Developed" },
+          "tourism_status": "High",
+          "administrative_units": [
+            {
+              "name": "Belfast",
+              "type": "District",
+              "sub_units": [
+                {
+                  "name": "Botanic",
+                  "type": "District Electoral Area",
+                  "streets": [ { "name": "Great Victoria Street", "length_km": 1.0 }, { "name": "Royal Avenue", "length_km": 0.8 } ]
+                }
+              ]
+            },
+            {
+              "name": "Derry City and Strabane",
+              "type": "District",
+              "sub_units": [
+                {
+                  "name": "The Moor",
+                  "type": "District Electoral Area",
+                  "streets": [ { "name": "Shipquay Street", "length_km": 0.3 } ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+
+{
+  "occupations": [
+    {"name": "Factory Worker", "min_age": 18, "max_age": 60, "typical_education_level": "High School", "gender_bias": {"male": 0.6, "female": 0.4}, "industry": "Manufacturing"},
+    {"name": "Farmer", "min_age": 18, "max_age": 65, "typical_education_level": "High School", "gender_bias": {"male": 0.7, "female": 0.3}, "industry": "Agriculture"},
+    {"name": "Teacher", "min_age": 22, "max_age": 60, "typical_education_level": "Bachelors", "gender_bias": {"female": 0.7, "male": 0.3}, "industry": "Education"},
+    {"name": "Software Engineer", "min_age": 22, "max_age": 60, "typical_education_level": "Bachelors", "gender_bias": {"male": 0.8, "female": 0.2}, "industry": "Technology"},
+    {"name": "Doctor", "min_age": 25, "max_age": 65, "typical_education_level": "Doctorate", "gender_bias": {"male": 0.6, "female": 0.4}, "industry": "Healthcare"},
+    {"name": "Accountant", "min_age": 21, "max_age": 60, "typical_education_level": "Bachelors", "gender_bias": {"male": 0.4, "female": 0.6}, "industry": "Finance"},
+    {"name": "Construction Worker", "min_age": 18, "max_age": 60, "typical_education_level": "High School", "gender_bias": {"male": 0.95, "female": 0.05}, "industry": "Construction"},
+    {"name": "Student", "min_age": 6, "max_age": 30, "typical_education_level": "Varies", "gender_bias": {"male": 0.5, "female": 0.5}, "industry": "Education"},
+    {"name": "Retired", "min_age": 55, "max_age": 100, "typical_education_level": "Varies", "gender_bias": {"male": 0.5, "female": 0.5}, "industry": "None"},
+    {"name": "Unemployed", "min_age": 18, "max_age": 60, "typical_education_level": "Varies", "gender_bias": {"male": 0.5, "female": 0.5}, "industry": "None"}
+  ]
+}

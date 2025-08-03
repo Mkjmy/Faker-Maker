@@ -1,0 +1,127 @@
+{
+  "marital_status_rules": [
+    {
+      "age_range": [0, 17],
+      "status_weights": {
+        "Single": 1.0
+      }
+    },
+    {
+      "age_range": [18, 21],
+      "status_weights": {
+        "Single": 0.85,
+        "Married": 0.15
+      }
+    },
+    {
+      "age_range": [22, 29],
+      "status_weights": {
+        "Single": 0.6,
+        "Married": 0.35,
+        "Divorced": 0.05
+      }
+    },
+    {
+      "age_range": [30, 49],
+      "status_weights": {
+        "Married": 0.7,
+        "Divorced": 0.2,
+        "Single": 0.1
+      }
+    },
+    {
+      "age_range": [50, 69],
+      "status_weights": {
+        "Married": 0.5,
+        "Divorced": 0.2,
+        "Widowed": 0.2,
+        "Single": 0.1
+      }
+    },
+    {
+      "age_range": [70, 120],
+      "status_weights": {
+        "Widowed": 0.6,
+        "Married": 0.2,
+        "Divorced": 0.15,
+        "Single": 0.05
+      }
+    }
+  ],
+  "children_info_rules": [
+    {
+      "education_level_in": ["Bachelors", "Masters", "Doctorate"],
+      "age_ranges": [
+        {
+          "age_range": [22, 35],
+          "children_weights": {
+            "0": 0.6,
+            "1": 0.4
+          }
+        }
+      ]
+    },
+    {
+      "marital_status": "Married",
+      "age_ranges": [
+        {
+          "age_range": [0, 24],
+          "children_weights": {
+            "0": 0.7,
+            "1": 0.3
+          }
+        },
+        {
+          "age_range": [25, 34],
+          "children_weights": {
+            "0": 0.2,
+            "1": 0.5,
+            "2": 0.3
+          }
+        },
+        {
+          "age_range": [35, 44],
+          "children_weights": {
+            "1": 0.3,
+            "2": 0.4,
+            "3": 0.3
+          }
+        },
+        {
+          "age_range": [45, 120],
+          "children_weights": {
+            "0": 0.2,
+            "1": 0.2,
+            "2": 0.3,
+            "3": 0.2,
+            "4": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "marital_status": "Single",
+      "children_weights": {
+        "0": 0.95,
+        "1": 0.05
+      }
+    },
+    {
+      "marital_status": "Divorced",
+      "children_weights": {
+        "0": 0.3,
+        "1": 0.4,
+        "2": 0.3
+      }
+    },
+    {
+      "marital_status": "Widowed",
+      "children_weights": {
+        "0": 0.4,
+        "1": 0.3,
+        "2": 0.2,
+        "3": 0.1
+      }
+    }
+  ]
+}

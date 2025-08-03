@@ -1,0 +1,1176 @@
+{
+  "regions": [
+    {
+      "name": "New England",
+      "states": [
+        {
+          "name": "Connecticut",
+          "capital": "Hartford",
+          "geography": { "terrain_type": "Hilly, coastal", "is_mountainous": false },
+          "economy": { "gdp_per_capita_usd": 78000, "economic_classification": "Developed, Finance & Insurance" },
+          "tourism_status": "Medium",
+          "administrative_units": [
+            {
+              "name": "Hartford County",
+              "type": "County",
+              "sub_units": [
+                {
+                  "name": "Hartford",
+                  "type": "City",
+                  "sub_units": [
+                    { "name": "Downtown", "type": "District", "streets": [ { "name": "Main Street", "length_km": 1.5 } ] }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Maine",
+          "capital": "Augusta",
+          "geography": { "terrain_type": "Forests, rocky coastline", "is_mountainous": true },
+          "economy": { "gdp_per_capita_usd": 50000, "economic_classification": "Developed, Tourism & Agriculture" },
+          "tourism_status": "High",
+          "administrative_units": [
+            {
+              "name": "Cumberland County",
+              "type": "County",
+              "sub_units": [
+                {
+                  "name": "Portland",
+                  "type": "City",
+                  "sub_units": [
+                    { "name": "Old Port", "type": "District", "streets": [ { "name": "Commercial Street", "length_km": 1.0 } ] }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Massachusetts",
+          "capital": "Boston",
+          "geography": { "terrain_type": "Hilly, coastal", "is_mountainous": false },
+          "economy": { "gdp_per_capita_usd": 75000, "economic_classification": "Developed, Tech & Education Hub" },
+          "tourism_status": "High",
+          "administrative_units": [
+            {
+              "name": "Suffolk County",
+              "type": "County",
+              "sub_units": [
+                {
+                  "name": "Boston",
+                  "type": "City",
+                  "sub_units": [
+                    { "name": "Beacon Hill", "type": "Neighborhood", "streets": [ { "name": "Charles Street", "length_km": 0.8 } ] }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "New Hampshire",
+          "capital": "Concord",
+          "geography": { "terrain_type": "Mountainous, forests", "is_mountainous": true },
+          "economy": { "gdp_per_capita_usd": 68000, "economic_classification": "Developed, Manufacturing & Tourism" },
+          "tourism_status": "Medium",
+          "administrative_units": [
+            {
+              "name": "Merrimack County",
+              "type": "County",
+              "sub_units": [
+                {
+                  "name": "Concord",
+                  "type": "City",
+                  "sub_units": [
+                    { "name": "Downtown", "type": "District", "streets": [ { "name": "Main Street", "length_km": 1.0 } ] }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Rhode Island",
+          "capital": "Providence",
+          "geography": { "terrain_type": "Coastal, flat", "is_mountainous": false },
+          "economy": { "gdp_per_capita_usd": 60000, "economic_classification": "Developed, Healthcare & Education" },
+          "tourism_status": "Medium",
+          "administrative_units": [
+            {
+              "name": "Providence County",
+              "type": "County",
+              "sub_units": [
+                {
+                  "name": "Providence",
+                  "type": "City",
+                  "sub_units": [
+                    { "name": "College Hill", "type": "Neighborhood", "streets": [ { "name": "Benefit Street", "length_km": 0.7 } ] }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Vermont",
+          "capital": "Montpelier",
+          "geography": { "terrain_type": "Mountainous, forests", "is_mountainous": true },
+          "economy": { "gdp_per_capita_usd": 52000, "economic_classification": "Developed, Agriculture & Tourism" },
+          "tourism_status": "High",
+          "administrative_units": [
+            {
+              "name": "Washington County",
+              "type": "County",
+              "sub_units": [
+                {
+                  "name": "Montpelier",
+                  "type": "City",
+                  "sub_units": [
+                    { "name": "Downtown", "type": "District", "streets": [ { "name": "Main Street", "length_km": 0.5 } ] }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mid-Atlantic",
+      "states": [
+        {
+          "name": "New Jersey",
+          "capital": "Trenton",
+          "geography": { "terrain_type": "Coastal, plains", "is_mountainous": false },
+          "economy": { "gdp_per_capita_usd": 70000, "economic_classification": "Developed, Pharmaceuticals & Finance" },
+          "tourism_status": "Medium",
+          "administrative_units": [
+            {
+              "name": "Mercer County",
+              "type": "County",
+              "sub_units": [
+                {
+                  "name": "Trenton",
+                  "type": "City",
+                  "sub_units": [
+                    {
+                      "name": "Downtown",
+                      "type": "District",
+                      "streets": [
+                        { "name": "State Street", "length_km": 1.0 }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "New York",
+          "capital": "Albany",
+          "geography": { "terrain_type": "Varied (mountains, plains, coastal)", "is_mountainous": true },
+          "economy": { "gdp_per_capita_usd": 85000, "economic_classification": "Developed, Global Financial Hub" },
+          "tourism_status": "Very High",
+          "administrative_units": [
+            {
+              "name": "New York County",
+              "type": "County",
+              "sub_units": [
+                {
+                  "name": "New York City",
+                  "type": "City",
+                  "sub_units": [
+                    { "name": "Manhattan", "type": "Borough", "streets": [ { "name": "Broadway", "length_km": 21 }, { "name": "Wall Street", "length_km": 1.1 } ] },
+                    { "name": "Brooklyn", "type": "Borough", "streets": [ { "name": "Flatbush Avenue", "length_km": 15.8 }, { "name": "Bedford Avenue", "length_km": 16.4 } ] }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Pennsylvania",
+          "capital": "Harrisburg",
+          "geography": { "terrain_type": "Mountainous, forests, plains", "is_mountainous": true },
+          "economy": { "gdp_per_capita_usd": 62000, "economic_classification": "Developed, Manufacturing & Agriculture" },
+          "tourism_status": "Medium",
+          "administrative_units": [
+            {
+              "name": "Philadelphia County",
+              "type": "County",
+              "sub_units": [
+                {
+                  "name": "Philadelphia",
+                  "type": "City",
+                  "sub_units": [
+                    { "name": "Center City", "type": "District", "streets": [ { "name": "Broad Street", "length_km": 3.0 } ] }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Delaware",
+          "capital": "Dover",
+          "geography": { "terrain_type": "Flat, coastal", "is_mountainous": false },
+          "economy": { "gdp_per_capita_usd": 70000, "economic_classification": "Developed, Finance & Chemical" },
+          "tourism_status": "Low",
+          "administrative_units": [
+            {
+              "name": "New Castle County",
+              "type": "County",
+              "sub_units": [
+                {
+                  "name": "Wilmington",
+                  "type": "City",
+                  "sub_units": [
+                    { "name": "Downtown", "type": "District", "streets": [ { "name": "Market Street", "length_km": 1.0 } ] }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Maryland",
+          "capital": "Annapolis",
+          "geography": { "terrain_type": "Coastal, plains, some mountains", "is_mountainous": false },
+          "economy": { "gdp_per_capita_usd": 72000, "economic_classification": "Developed, Biotech & Government" },
+          "tourism_status": "Medium",
+          "administrative_units": [
+            {
+              "name": "Baltimore City",
+              "type": "City",
+              "sub_units": [
+                {
+                  "name": "Baltimore",
+                  "type": "City",
+                  "sub_units": [
+                    { "name": "Inner Harbor", "type": "District", "streets": [ { "name": "Pratt Street", "length_km": 1.2 } ] }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "District of Columbia",
+          "capital": "Washington D.C.",
+          "geography": { "terrain_type": "Flat, urban", "is_mountainous": false },
+          "economy": { "gdp_per_capita_usd": 160000, "economic_classification": "Developed, Government & Tourism" },
+          "tourism_status": "Very High",
+          "administrative_units": [
+            {
+              "name": "Washington",
+              "type": "City",
+              "sub_units": [
+                {
+                  "name": "Downtown",
+                  "type": "District",
+                  "streets": [                     { "name": "K Street NW", "length_km": 2.0 }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "The South",
+      "states": [
+        {
+          "name": "Virginia",
+          "capital": "Richmond",
+          "geography": { "terrain_type": "Coastal, mountains, valleys", "is_mountainous": true },
+          "economy": { "gdp_per_capita_usd": 65000, "economic_classification": "Developed, Government & Military" },
+          "tourism_status": "High",
+          "administrative_units": [
+            {
+              "name": "Fairfax County",
+              "type": "County",
+              "sub_units": [
+                {
+                  "name": "Arlington",
+                  "type": "City",
+                  "sub_units": [
+                    { "name": "Rosslyn", "type": "Neighborhood", "streets": [ { "name": "Wilson Blvd", "length_km": 1.5 } ] }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "West Virginia",
+          "capital": "Charleston",
+          "geography": { "terrain_type": "Mountainous, forests", "is_mountainous": true },
+          "economy": { "gdp_per_capita_usd": 40000, "economic_classification": "Developing, Coal & Energy" },
+          "tourism_status": "Medium",
+          "administrative_units": [
+            {
+              "name": "Kanawha County",
+              "type": "County",
+              "sub_units": [
+                {
+                  "name": "Charleston",
+                  "type": "City",
+                  "sub_units": [
+                    { "name": "Downtown", "type": "District", "streets": [ { "name": "Capitol Street", "length_km": 0.8 } ] }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Kentucky",
+          "capital": "Frankfort",
+          "geography": { "terrain_type": "Hilly, plains", "is_mountainous": false },
+          "economy": { "gdp_per_capita_usd": 48000, "economic_classification": "Developed, Manufacturing & Agriculture" },
+          "tourism_status": "Medium",
+          "administrative_units": [
+            {
+              "name": "Jefferson County",
+              "type": "County",
+              "sub_units": [
+                {
+                  "name": "Louisville",
+                  "type": "City",
+                  "sub_units": [
+                    { "name": "Downtown", "type": "District", "streets": [ { "name": "Fourth Street Live!", "length_km": 0.5 } ] }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Tennessee",
+          "capital": "Nashville",
+          "geography": { "terrain_type": "Mountainous, valleys, plains", "is_mountainous": true },
+          "economy": { "gdp_per_capita_usd": 55000, "economic_classification": "Developed, Manufacturing & Music" },
+          "tourism_status": "High",
+          "administrative_units": [
+            {
+              "name": "Davidson County",
+              "type": "County",
+              "sub_units": [
+                {
+                  "name": "Nashville",
+                  "type": "City",
+                  "sub_units": [
+                    { "name": "Broadway", "type": "District", "streets": [ { "name": "Broadway", "length_km": 1.0 } ] }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "North Carolina",
+          "capital": "Raleigh",
+          "geography": { "terrain_type": "Coastal, plains, mountains", "is_mountainous": true },
+          "economy": { "gdp_per_capita_usd": 58000, "economic_classification": "Developed, Tech & Banking" },
+          "tourism_status": "High",
+          "administrative_units": [
+            {
+              "name": "Mecklenburg County",
+              "type": "County",
+              "sub_units": [
+                {
+                  "name": "Charlotte",
+                  "type": "City",
+                  "sub_units": [
+                    { "name": "Uptown", "type": "District", "streets": [ { "name": "Tryon Street", "length_km": 1.0 } ] }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "South Carolina",
+          "capital": "Columbia",
+          "geography": { "terrain_type": "Coastal, plains, some hills", "is_mountainous": false },
+          "economy": { "gdp_per_capita_usd": 50000, "economic_classification": "Developed, Manufacturing & Tourism" },
+          "tourism_status": "High",
+          "administrative_units": [
+            {
+              "name": "Charleston County",
+              "type": "County",
+              "sub_units": [
+                {
+                  "name": "Charleston",
+                  "type": "City",
+                  "sub_units": [
+                    { "name": "Historic District", "type": "District", "streets": [ { "name": "King Street", "length_km": 1.5 } ] }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Georgia",
+          "capital": "Atlanta",
+          "geography": { "terrain_type": "Plains, some mountains", "is_mountainous": false },
+          "economy": { "gdp_per_capita_usd": 57000, "economic_classification": "Developed, Logistics & Tech" },
+          "tourism_status": "High",
+          "administrative_units": [
+            {
+              "name": "Fulton County",
+              "type": "County",
+              "sub_units": [
+                {
+                  "name": "Atlanta",
+                  "type": "City",
+                  "sub_units": [
+                    { "name": "Downtown", "type": "District", "streets": [ { "name": "Peachtree Street", "length_km": 2.0 } ] }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Florida",
+          "capital": "Tallahassee",
+          "geography": { "terrain_type": "Flat, coastal, wetlands", "is_mountainous": false },
+          "economy": { "gdp_per_capita_usd": 55000, "economic_classification": "Developed, Tourism & Agriculture" },
+          "tourism_status": "Very High",
+          "administrative_units": [
+            {
+              "name": "Miami-Dade County",
+              "type": "County",
+              "sub_units": [
+                {
+                  "name": "Miami",
+                  "type": "City",
+                  "sub_units": [
+                    { "name": "South Beach", "type": "Neighborhood", "streets": [ { "name": "Ocean Drive", "length_km": 1.0 } ] }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Alabama",
+          "capital": "Montgomery",
+          "geography": { "terrain_type": "Plains, some hills", "is_mountainous": false },
+          "economy": { "gdp_per_capita_usd": 45000, "economic_classification": "Developing, Manufacturing & Agriculture" },
+          "tourism_status": "Low",
+          "administrative_units": [
+            {
+              "name": "Jefferson County",
+              "type": "County",
+              "sub_units": [
+                {
+                  "name": "Birmingham",
+                  "type": "City",
+                  "sub_units": [
+                    { "name": "20th Street N", "length_km": 1.0 }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mississippi",
+          "capital": "Jackson",
+          "geography": { "terrain_type": "Flat, coastal plains", "is_mountainous": false },
+          "economy": { "gdp_per_capita_usd": 40000, "economic_classification": "Developing, Agriculture & Manufacturing" },
+          "tourism_status": "Low",
+          "administrative_units": [
+            {
+              "name": "Hinds County",
+              "type": "County",
+              "sub_units": [
+                {
+                  "name": "Jackson",
+                  "type": "City",
+                  "sub_units": [
+                    { "name": "Capitol Street", "length_km": 0.8 }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Louisiana",
+          "capital": "Baton Rouge",
+          "geography": { "terrain_type": "Flat, coastal, wetlands", "is_mountainous": false },
+          "economy": { "gdp_per_capita_usd": 50000, "economic_classification": "Developed, Energy & Tourism" },
+          "tourism_status": "High",
+          "administrative_units": [
+            {
+              "name": "Orleans Parish",
+              "type": "Parish",
+              "sub_units": [
+                {
+                  "name": "New Orleans",
+                  "type": "City",
+                  "sub_units": [
+                    { "name": "French Quarter", "type": "Neighborhood", "streets": [ { "name": "Bourbon Street", "length_km": 0.5 } ] }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Arkansas",
+          "capital": "Little Rock",
+          "geography": { "terrain_type": "Mountainous, forests, plains", "is_mountainous": true },
+          "economy": { "gdp_per_capita_usd": 45000, "economic_classification": "Developing, Agriculture & Manufacturing" },
+          "tourism_status": "Medium",
+          "administrative_units": [
+            {
+              "name": "Pulaski County",
+              "type": "County",
+              "sub_units": [
+                {
+                  "name": "Little Rock",
+                  "type": "City",
+                  "sub_units": [
+                    { "name": "Main Street", "length_km": 1.0 }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "The Midwest",
+      "states": [
+        {
+          "name": "Ohio",
+          "capital": "Columbus",
+          "geography": { "terrain_type": "Flat, plains, some hills", "is_mountainous": false },
+          "economy": { "gdp_per_capita_usd": 58000, "economic_classification": "Developed, Manufacturing & Agriculture" },
+          "tourism_status": "Low",
+          "administrative_units": [
+            {
+              "name": "Cuyahoga County",
+              "type": "County",
+              "sub_units": [
+                {
+                  "name": "Cleveland",
+                  "type": "City",
+                  "sub_units": [
+                    { "name": "Euclid Avenue", "length_km": 3.0 }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Michigan",
+          "capital": "Lansing",
+          "geography": { "terrain_type": "Flat, forests, Great Lakes coastline", "is_mountainous": false },
+          "economy": { "gdp_per_capita_usd": 55000, "economic_classification": "Developed, Automotive & Manufacturing" },
+          "tourism_status": "Medium",
+          "administrative_units": [
+            {
+              "name": "Wayne County",
+              "type": "County",
+              "sub_units": [
+                {
+                  "name": "Detroit",
+                  "type": "City",
+                  "sub_units": [
+                    { "name": "Downtown", "type": "District", "streets": [ { "name": "Woodward Avenue", "length_km": 2.5 } ] }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Indiana",
+          "capital": "Indianapolis",
+          "geography": { "terrain_type": "Flat, plains", "is_mountainous": false },
+          "economy": { "gdp_per_capita_usd": 52000, "economic_classification": "Developed, Manufacturing & Agriculture" },
+          "tourism_status": "Low",
+          "administrative_units": [
+            {
+              "name": "Marion County",
+              "type": "County",
+              "sub_units": [
+                {
+                  "name": "Indianapolis",
+                  "type": "City",
+                  "sub_units": [
+                    { "name": "Washington Street", "length_km": 1.8 }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Illinois",
+          "capital": "Springfield",
+          "geography": { "terrain_type": "Flat, plains", "is_mountainous": false },
+          "economy": { "gdp_per_capita_usd": 65000, "economic_classification": "Developed, Manufacturing & Finance" },
+          "tourism_status": "Medium",
+          "administrative_units": [
+            {
+              "name": "Cook County",
+              "type": "County",
+              "sub_units": [
+                {
+                  "name": "Chicago",
+                  "type": "City",
+                  "sub_units": [
+                    { "name": "The Loop", "type": "District", "streets": [ { "name": "State Street", "length_km": 2.0 } ] }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Wisconsin",
+          "capital": "Madison",
+          "geography": { "terrain_type": "Hilly, forests, Great Lakes coastline", "is_mountainous": false },
+          "economy": { "gdp_per_capita_usd": 58000, "economic_classification": "Developed, Manufacturing & Agriculture" },
+          "tourism_status": "Medium",
+          "administrative_units": [
+            {
+              "name": "Milwaukee County",
+              "type": "County",
+              "sub_units": [
+                {
+                  "name": "Milwaukee",
+                  "type": "City",
+                  "sub_units": [
+                    { "name": "Downtown", "type": "District", "streets": [ { "name": "Wisconsin Avenue", "length_km": 1.5 } ] }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Minnesota",
+          "capital": "Saint Paul",
+          "geography": { "terrain_type": "Flat, forests, lakes", "is_mountainous": false },
+          "economy": { "gdp_per_capita_usd": 65000, "economic_classification": "Developed, Agriculture & Tech" },
+          "tourism_status": "Medium",
+          "administrative_units": [
+            {
+              "name": "Hennepin County",
+              "type": "County",
+              "sub_units": [
+                {
+                  "name": "Minneapolis",
+                  "type": "City",
+                  "sub_units": [
+                    { "name": "Nicollet Mall", "length_km": 1.0 }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Iowa",
+          "capital": "Des Moines",
+          "geography": { "terrain_type": "Flat, plains", "is_mountainous": false },
+          "economy": { "gdp_per_capita_usd": 55000, "economic_classification": "Developed, Agriculture & Manufacturing" },
+          "tourism_status": "Low",
+          "administrative_units": [
+            {
+              "name": "Polk County",
+              "type": "County",
+              "sub_units": [
+                {
+                  "name": "Des Moines",
+                  "type": "City",
+                  "sub_units": [
+                    { "name": "Locust Street", "length_km": 0.8 }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Missouri",
+          "capital": "Jefferson City",
+          "geography": { "terrain_type": "Hilly, plains", "is_mountainous": false },
+          "economy": { "gdp_per_capita_usd": 50000, "economic_classification": "Developed, Manufacturing & Agriculture" },
+          "tourism_status": "Medium",
+          "administrative_units": [
+            {
+              "name": "St. Louis City",
+              "type": "City",
+              "sub_units": [
+                {
+                  "name": "St. Louis",
+                  "type": "City",
+                  "sub_units": [
+                    { "name": "Washington Avenue", "length_km": 1.0 }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "North Dakota",
+          "capital": "Bismarck",
+          "geography": { "terrain_type": "Flat, plains", "is_mountainous": false },
+          "economy": { "gdp_per_capita_usd": 60000, "economic_classification": "Developed, Agriculture & Energy" },
+          "tourism_status": "Low",
+          "administrative_units": [
+            {
+              "name": "Burleigh County",
+              "type": "County",
+              "sub_units": [
+                {
+                  "name": "Bismarck",
+                  "type": "City",
+                  "sub_units": [
+                    { "name": "Main Avenue", "length_km": 0.7 }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "South Dakota",
+          "capital": "Pierre",
+          "geography": { "terrain_type": "Flat, plains, Black Hills", "is_mountainous": true },
+          "economy": { "gdp_per_capita_usd": 55000, "economic_classification": "Developed, Agriculture & Tourism" },
+          "tourism_status": "High",
+          "administrative_units": [
+            {
+              "name": "Minnehaha County",
+              "type": "County",
+              "sub_units": [
+                {
+                  "name": "Sioux Falls",
+                  "type": "City",
+                  "sub_units": [
+                    { "name": "Phillips Avenue", "length_km": 0.9 }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Nebraska",
+          "capital": "Lincoln",
+          "geography": { "terrain_type": "Flat, plains", "is_mountainous": false },
+          "economy": { "gdp_per_capita_usd": 58000, "economic_classification": "Developed, Agriculture & Manufacturing" },
+          "tourism_status": "Low",
+          "administrative_units": [
+            {
+              "name": "Douglas County",
+              "type": "County",
+              "sub_units": [
+                {
+                  "name": "Omaha",
+                  "type": "City",
+                  "sub_units": [
+                    { "name": "Old Market", "type": "District", "streets": [ { "name": "Howard Street", "length_km": 0.6 } ] }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Kansas",
+          "capital": "Topeka",
+          "geography": { "terrain_type": "Flat, plains", "is_mountainous": false },
+          "economy": { "gdp_per_capita_usd": 53000, "economic_classification": "Developed, Agriculture & Aerospace" },
+          "tourism_status": "Low",
+          "administrative_units": [
+            {
+              "name": "Sedgwick County",
+              "type": "County",
+              "sub_units": [
+                {
+                  "name": "Wichita",
+                  "type": "City",
+                  "sub_units": [
+                    { "name": "Old Town", "type": "District", "streets": [ { "name": "Douglas Avenue", "length_km": 1.0 } ] }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "The Southwest",
+      "states": [
+        {
+          "name": "Texas",
+          "capital": "Austin",
+          "geography": { "terrain_type": "Plains, coastal, deserts", "is_mountainous": false },
+          "economy": { "gdp_per_capita_usd": 60000, "economic_classification": "Developed, Energy & Tech Hub" },
+          "tourism_status": "Medium",
+          "administrative_units": [
+            {
+              "name": "Harris County",
+              "type": "County",
+              "sub_units": [
+                {
+                  "name": "Houston",
+                  "type": "City",
+                  "sub_units": [
+                    { "name": "Downtown", "type": "District", "streets": [ { "name": "Main Street", "length_km": 2.0 } ] }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Oklahoma",
+          "capital": "Oklahoma City",
+          "geography": { "terrain_type": "Plains, some hills", "is_mountainous": false },
+          "economy": { "gdp_per_capita_usd": 48000, "economic_classification": "Developed, Energy & Agriculture" },
+          "tourism_status": "Low",
+          "administrative_units": [
+            {
+              "name": "Oklahoma County",
+              "type": "County",
+              "sub_units": [
+                {
+                  "name": "Oklahoma City",
+                  "type": "City",
+                  "sub_units": [
+                    { "name": "Bricktown", "type": "District", "streets": [ { "name": "Reno Avenue", "length_km": 1.0 } ] }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "New Mexico",
+          "capital": "Santa Fe",
+          "geography": { "terrain_type": "Deserts, mountains", "is_mountainous": true },
+          "economy": { "gdp_per_capita_usd": 45000, "economic_classification": "Developing, Government & Tourism" },
+          "tourism_status": "High",
+          "administrative_units": [
+            {
+              "name": "Bernalillo County",
+              "type": "County",
+              "sub_units": [
+                {
+                  "name": "Albuquerque",
+                  "type": "City",
+                  "sub_units": [
+                    { "name": "Old Town", "type": "District", "streets": [ { "name": "Central Avenue", "length_km": 1.5 } ] }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Arizona",
+          "capital": "Phoenix",
+          "geography": { "terrain_type": "Deserts, mountains", "is_mountainous": true },
+          "economy": { "gdp_per_capita_usd": 55000, "economic_classification": "Developed, Tourism & Tech" },
+          "tourism_status": "Very High",
+          "administrative_units": [
+            {
+              "name": "Maricopa County",
+              "type": "County",
+              "sub_units": [
+                {
+                  "name": "Phoenix",
+                  "type": "City",
+                  "sub_units": [
+                    { "name": "Downtown", "type": "District", "streets": [ { "name": "Washington Street", "length_km": 2.0 } ] }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "The West",
+      "states": [
+        {
+          "name": "California",
+          "capital": "Sacramento",
+          "geography": { "terrain_type": "Varied (mountains, desert, coastal)", "is_mountainous": true },
+          "economy": { "gdp_per_capita_usd": 80000, "economic_classification": "Developed, Tech Hub" },
+          "tourism_status": "Very High",
+          "administrative_units": [
+            {
+              "name": "Los Angeles County",
+              "type": "County",
+              "sub_units": [
+                {
+                  "name": "Los Angeles",
+                  "type": "City",
+                  "sub_units": [
+                    { "name": "Hollywood", "type": "District", "streets": [ { "name": "Hollywood Boulevard", "length_km": 5.6 }, { "name": "Sunset Boulevard", "length_km": 35 } ] },
+                    { "name": "Beverly Hills", "type": "City", "streets": [ { "name": "Rodeo Drive", "length_km": 3.2 } ] }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "San Francisco County",
+              "type": "County",
+              "sub_units": [
+                {
+                  "name": "San Francisco",
+                  "type": "City",
+                  "sub_units": [
+                    { "name": "Fisherman's Wharf", "type": "Neighborhood", "streets": [ { "name": "Taylor Street", "length_km": 1.0 } ] }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Nevada",
+          "capital": "Carson City",
+          "geography": { "terrain_type": "Desert, mountainous", "is_mountainous": true },
+          "economy": { "gdp_per_capita_usd": 58000, "economic_classification": "Developed, Tourism & Gaming" },
+          "tourism_status": "Very High",
+          "administrative_units": [
+            {
+              "name": "Clark County",
+              "type": "County",
+              "sub_units": [
+                {
+                  "name": "Las Vegas",
+                  "type": "City",
+                  "sub_units": [
+                    { "name": "The Strip", "type": "District", "streets": [ { "name": "Las Vegas Boulevard", "length_km": 6.8 } ] }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Utah",
+          "capital": "Salt Lake City",
+          "geography": { "terrain_type": "Mountainous, deserts", "is_mountainous": true },
+          "economy": { "gdp_per_capita_usd": 55000, "economic_classification": "Developed, Tech & Tourism" },
+          "tourism_status": "High",
+          "administrative_units": [
+            {
+              "name": "Salt Lake County",
+              "type": "County",
+              "sub_units": [
+                {
+                  "name": "Salt Lake City",
+                  "type": "City",
+                  "sub_units": [
+                    { "name": "Downtown", "type": "District", "streets": [ { "name": "Main Street", "length_km": 1.0 } ] }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Colorado",
+          "capital": "Denver",
+          "geography": { "terrain_type": "Mountainous, plains", "is_mountainous": true },
+          "economy": { "gdp_per_capita_usd": 65000, "economic_classification": "Developed, Tech & Tourism" },
+          "tourism_status": "High",
+          "administrative_units": [
+            {
+              "name": "Denver County",
+              "type": "County",
+              "sub_units": [
+                {
+                  "name": "Denver",
+                  "type": "City",
+                  "sub_units": [
+                    { "name": "16th Street Mall", "length_km": 1.6 }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Wyoming",
+          "capital": "Cheyenne",
+          "geography": { "terrain_type": "Mountainous, plains", "is_mountainous": true },
+          "economy": { "gdp_per_capita_usd": 60000, "economic_classification": "Developed, Energy & Tourism" },
+          "tourism_status": "High",
+          "administrative_units": [
+            {
+              "name": "Laramie County",
+              "type": "County",
+              "sub_units": [
+                {
+                  "name": "Cheyenne",
+                  "type": "City",
+                  "sub_units": [
+                    { "name": "Capitol Avenue", "length_km": 0.8 }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Montana",
+          "capital": "Helena",
+          "geography": { "terrain_type": "Mountainous, plains", "is_mountainous": true },
+          "economy": { "gdp_per_capita_usd": 50000, "economic_classification": "Developed, Agriculture & Tourism" },
+          "tourism_status": "High",
+          "administrative_units": [
+            {
+              "name": "Lewis and Clark County",
+              "type": "County",
+              "sub_units": [
+                {
+                  "name": "Helena",
+                  "type": "City",
+                  "sub_units": [
+                    { "name": "Downtown", "type": "District", "streets": [ { "name": "Last Chance Gulch", "length_km": 0.5 } ] }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Idaho",
+          "capital": "Boise",
+          "geography": { "terrain_type": "Mountainous, forests", "is_mountainous": true },
+          "economy": { "gdp_per_capita_usd": 52000, "economic_classification": "Developed, Agriculture & Tech" },
+          "tourism_status": "Medium",
+          "administrative_units": [
+            {
+              "name": "Ada County",
+              "type": "County",
+              "sub_units": [
+                {
+                  "name": "Boise",
+                  "type": "City",
+                  "sub_units": [
+                    { "name": "Downtown", "type": "District", "streets": [ { "name": "Main Street", "length_km": 1.0 } ] }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Oregon",
+          "capital": "Salem",
+          "geography": { "terrain_type": "Coastal, mountainous, forests", "is_mountainous": true },
+          "economy": { "gdp_per_capita_usd": 60000, "economic_classification": "Developed, Tech & Agriculture" },
+          "tourism_status": "High",
+          "administrative_units": [
+            {
+              "name": "Multnomah County",
+              "type": "County",
+              "sub_units": [
+                {
+                  "name": "Portland",
+                  "type": "City",
+                  "sub_units": [
+                    { "name": "Downtown", "type": "District", "streets": [ { "name": "Burnside Street", "length_km": 2.0 } ] }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Washington",
+          "capital": "Olympia",
+          "geography": { "terrain_type": "Mountainous, coastal, forests", "is_mountainous": true },
+          "economy": { "gdp_per_capita_usd": 70000, "economic_classification": "Developed, Tech & Aerospace Hub" },
+          "tourism_status": "High",
+          "administrative_units": [
+            {
+              "name": "King County",
+              "type": "County",
+              "sub_units": [
+                {
+                  "name": "Seattle",
+                  "type": "City",
+                  "sub_units": [
+                    { "name": "Pine Street", "length_km": 1.5 }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Alaska",
+          "capital": "Juneau",
+          "geography": { "terrain_type": "Mountainous, tundra, glaciers", "is_mountainous": true },
+          "economy": { "gdp_per_capita_usd": 75000, "economic_classification": "Developed, Oil & Gas, Fishing" },
+          "tourism_status": "High",
+          "administrative_units": [
+            {
+              "name": "Anchorage Municipality",
+              "type": "Municipality",
+              "sub_units": [
+                {
+                  "name": "Anchorage",
+                  "type": "City",
+                  "sub_units": [
+                    { "name": "4th Avenue", "length_km": 1.0 }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hawaii",
+          "capital": "Honolulu",
+          "geography": { "terrain_type": "Volcanic islands, beaches", "is_mountainous": true },
+          "economy": { "gdp_per_capita_usd": 60000, "economic_classification": "Developed, Tourism & Military" },
+          "tourism_status": "Very High",
+          "administrative_units": [
+            {
+              "name": "Honolulu County",
+              "type": "County",
+              "sub_units": [
+                {
+                  "name": "Honolulu",
+                  "type": "City",
+                  "sub_units": [
+                    { "name": "Waikiki", "type": "Neighborhood", "streets": [ { "name": "Kalakaua Avenue", "length_km": 2.0 } ] }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

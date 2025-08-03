@@ -1,0 +1,251 @@
+{
+  "regions": [
+    {
+      "name": "North China",
+      "provinces": [
+        {
+          "name": "Beijing",
+          "capital": "Beijing",
+          "geography": { "terrain_type": "Plain", "is_mountainous": false },
+          "economy": { "gdp_per_capita_usd": 23000, "economic_classification": "Developed, Global Financial Hub" },
+          "tourism_status": "Very High",
+          "administrative_units": [
+            {
+              "name": "Dongcheng District",
+              "type": "District",
+              "sub_units": [
+                {
+                  "name": "Wangfujing",
+                  "type": "Street",
+                  "streets": [ { "name": "Wangfujing Street", "length_km": 1.5 } ]
+                }
+              ]
+            },
+            {
+              "name": "Chaoyang District",
+              "type": "District",
+              "sub_units": [
+                {
+                  "name": "Sanlitun",
+                  "type": "Area",
+                  "streets": [ { "name": "Sanlitun Road", "length_km": 1.0 } ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hebei",
+          "capital": "Shijiazhuang",
+          "geography": { "terrain_type": "Plain, mountains", "is_mountainous": true },
+          "economy": { "gdp_per_capita_usd": 9000, "economic_classification": "Developing, Industrial & Agricultural" },
+          "tourism_status": "Medium",
+          "administrative_units": [
+            {
+              "name": "Shijiazhuang City",
+              "type": "City",
+              "sub_units": [
+                {
+                  "name": "Xinhua District",
+                  "type": "District",
+                  "streets": [ { "name": "Zhongshan Road", "length_km": 2.0 } ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "East China",
+      "provinces": [
+        {
+          "name": "Shanghai",
+          "capital": "Shanghai",
+          "geography": { "terrain_type": "Plain", "is_mountainous": false },
+          "economy": { "gdp_per_capita_usd": 25000, "economic_classification": "Developed, Global Financial Hub" },
+          "tourism_status": "Very High",
+          "administrative_units": [
+            {
+              "name": "Huangpu District",
+              "type": "District",
+              "sub_units": [
+                {
+                  "name": "The Bund",
+                  "type": "Street",
+                  "streets": [ { "name": "Zhongshan East First Road", "length_km": 1.5 } ]
+                }
+              ]
+            },
+            {
+              "name": "Pudong New Area",
+              "type": "District",
+              "sub_units": [
+                {
+                  "name": "Lujiazui",
+                  "type": "Area",
+                  "streets": [ { "name": "Century Avenue", "length_km": 3.0 } ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Jiangsu",
+          "capital": "Nanjing",
+          "geography": { "terrain_type": "Plain, coastal", "is_mountainous": false },
+          "economy": { "gdp_per_capita_usd": 15000, "economic_classification": "Developed, Manufacturing & Tech" },
+          "tourism_status": "High",
+          "administrative_units": [
+            {
+              "name": "Nanjing City",
+              "type": "City",
+              "sub_units": [
+                {
+                  "name": "Xuanwu District",
+                  "type": "District",
+                  "streets": [ { "name": "Zhongshan Road", "length_km": 2.5 } ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "South China",
+      "provinces": [
+        {
+          "name": "Guangdong",
+          "capital": "Guangzhou",
+          "geography": { "terrain_type": "Hilly, coastal", "is_mountainous": false },
+          "economy": { "gdp_per_capita_usd": 18000, "economic_classification": "Developed, Manufacturing & Trade" },
+          "tourism_status": "Very High",
+          "administrative_units": [
+            {
+              "name": "Guangzhou City",
+              "type": "City",
+              "sub_units": [
+                {
+                  "name": "Tianhe District",
+                  "type": "District",
+                  "streets": [ { "name": "Tianhe Road", "length_km": 3.0 } ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hainan",
+          "capital": "Haikou",
+          "geography": { "terrain_type": "Island, tropical", "is_mountainous": false },
+          "economy": { "gdp_per_capita_usd": 10000, "economic_classification": "Developing, Tourism & Agriculture" },
+          "tourism_status": "High",
+          "administrative_units": [
+            {
+              "name": "Haikou City",
+              "type": "City",
+              "sub_units": [
+                {
+                  "name": "Longhua District",
+                  "type": "District",
+                  "streets": [ { "name": "Haixiu Road", "length_km": 2.0 } ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Southwest China",
+      "provinces": [
+        {
+          "name": "Sichuan",
+          "capital": "Chengdu",
+          "geography": { "terrain_type": "Basin, mountains", "is_mountainous": true },
+          "economy": { "gdp_per_capita_usd": 12000, "economic_classification": "Developing, Agriculture & Tech" },
+          "tourism_status": "High",
+          "administrative_units": [
+            {
+              "name": "Chengdu City",
+              "type": "City",
+              "sub_units": [
+                {
+                  "name": "Jinjiang District",
+                  "type": "District",
+                  "streets": [ { "name": "Chunxi Road", "length_km": 1.0 } ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Yunnan",
+          "capital": "Kunming",
+          "geography": { "terrain_type": "Plateau, mountains", "is_mountainous": true },
+          "economy": { "gdp_per_capita_usd": 8000, "economic_classification": "Developing, Agriculture & Tourism" },
+          "tourism_status": "Very High",
+          "administrative_units": [
+            {
+              "name": "Kunming City",
+              "type": "City",
+              "sub_units": [
+                {
+                  "name": "Chenggong District",
+                  "type": "District",
+                  "streets": [ { "name": "Dianchi Road", "length_km": 3.0 } ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Northwest China",
+      "provinces": [
+        {
+          "name": "Shaanxi",
+          "capital": "Xi'an",
+          "geography": { "terrain_type": "Plateau, mountains", "is_mountainous": true },
+          "economy": { "gdp_per_capita_usd": 10000, "economic_classification": "Developing, Tech & Tourism" },
+          "tourism_status": "High",
+          "administrative_units": [
+            {
+              "name": "Xi'an City",
+              "type": "City",
+              "sub_units": [
+                {
+                  "name": "Beilin District",
+                  "type": "District",
+                  "streets": [ { "name": "South Street", "length_km": 1.0 } ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Gansu",
+          "capital": "Lanzhou",
+          "geography": { "terrain_type": "Plateau, mountains, deserts", "is_mountainous": true },
+          "economy": { "gdp_per_capita_usd": 7000, "economic_classification": "Developing, Agriculture & Energy" },
+          "tourism_status": "Medium",
+          "administrative_units": [
+            {
+              "name": "Lanzhou City",
+              "type": "City",
+              "sub_units": [
+                {
+                  "name": "Chengguan District",
+                  "type": "District",
+                  "streets": [ { "name": "Tianshui Road", "length_km": 2.0 } ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

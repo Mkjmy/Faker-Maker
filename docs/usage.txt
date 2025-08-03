@@ -1,0 +1,76 @@
+### [bold green]Project Information[/bold green] ###
+[bold yellow]Project Name:[/bold yellow] Fake Personal Information Generator
+[bold yellow]Version:[/bold yellow] 1.0.0
+[bold yellow]Description:[/bold yellow] A tool to generate realistic fake personal profiles based on various constraints.
+
+
+### [bold blue]Usage Modes[/bold blue] ###
+This tool supports two primary modes of operation:
+
+[bold magenta]1. Interactive Mode:[/bold magenta]
+Run the script without any arguments to enter an interactive menu-driven interface. This mode allows you to generate profiles, view project information, and perform consistency checks through guided prompts.
+  [bold cyan]faker-maker[/bold cyan]
+
+[bold magenta]2. Non-Interactive (Command-Line) Mode:[/bold magenta]
+Generate profiles directly by providing arguments via the command line. This mode is suitable for scripting or quick, automated generation.
+  [bold cyan]faker-maker [OPTIONS] [PROFILE_GENERATION_ARGUMENTS][/bold cyan]
+
+### [bold blue]General Options[/bold blue] ###
+These options can be used in conjunction with either interactive or non-interactive mode.
+
+  [bold]--non-interactive[/bold]  [green]Forces the script to run in non-interactive mode, even if no other profile generation arguments are provided. Useful for testing or when you want to explicitly bypass the interactive menu.[/green]
+  [bold]--debug[/bold]            [green]Enables detailed debug output to the console. This can help in troubleshooting issues by showing internal process information.[/green]
+  [bold]-v, --version[/bold]     [green]Displays the program's version number and exits.[/green]
+  [bold]-h, --help[/bold]        [green]Displays this help message and exits.[/green]
+
+### [bold blue]Profile Generation Arguments (Non-Interactive Mode)[/bold blue] ###
+Use these arguments to specify details for the profiles you want to generate in non-interactive mode. If any of these arguments are provided, the script will automatically enter non-interactive mode.
+
+  [bold]--num-profiles NUM[/bold]  [yellow]Specify the number of fake profiles to generate. Defaults to 1 if not specified.[/yellow]
+                        [yellow]Example: [bold cyan]--num-profiles 5[/bold cyan] to generate 5 profiles.[/yellow]
+
+  [bold]--name NAME[/bold]         [yellow]Set a specific full name for the generated profile. This will override first, middle, and last name generation.[/yellow]
+                        [yellow]Example: [bold cyan]--name "John Doe"[/bold cyan][/yellow]
+
+  [bold]--custom-first-name NAME[/bold] [yellow]Custom first name for name generation.[/yellow]
+                        [yellow]Example: [bold cyan]--custom-first-name Alice[/bold cyan][/yellow]
+
+  [bold]--custom-last-name NAME[/bold]  [yellow]Custom last name for name generation.[/yellow]
+                        [yellow]Example: [bold cyan]--custom-last-name Smith[/bold cyan][/yellow]
+
+  [bold]--age AGE[/bold]           [yellow]Set the age for the generated profile. Can be a specific number, a range, or a general category.[/yellow]
+                        [yellow]Examples: [bold cyan]--age 25[/bold cyan] (exact age), [bold cyan]--age "18-30"[/bold cyan] (age range), [bold cyan]--age "60+"[/bold cyan] (60 or older).[/yellow]
+
+  [bold]--gender GENDER[/bold]     [yellow]Set the gender for the generated profile.[/yellow]
+                        [yellow]Choices: [bold cyan]male[/bold cyan], [bold cyan]female[/bold cyan], [bold cyan]other[/bold cyan], [bold cyan]any[/bold cyan].[/yellow]
+                        [yellow]Example: [bold cyan]--gender female[/bold cyan][/yellow]
+
+  [bold]--occupation OCCUPATION[/bold] [yellow]Set a specific occupation for the generated profile.[/yellow]
+                        [yellow]Example: [bold cyan]--occupation "Software Engineer"[/bold cyan][/yellow]
+
+  [bold]--region REGION[/bold]     [yellow]Set the geographical region for the generated profile. This affects names, addresses, and other region-specific data.[/yellow]
+                        [yellow]Examples: [bold cyan]--region US_GENERAL[/bold cyan], [bold cyan]--region UK_GENERAL[/bold cyan], [bold cyan]--region VI_VN[/bold cyan].[/yellow]
+                        [yellow](Refer to data files for available regions).[/yellow]
+
+  [bold]--marital-status STATUS[/bold] [yellow]Set the marital status for the generated profile.[/yellow]
+                        [yellow]Choices: [bold cyan]single[/bold cyan], [bold cyan]married[/bold cyan], [bold cyan]divorced[/bold cyan], [bold cyan]widowed[/bold cyan], [bold cyan]any[/bold cyan].[/yellow]
+                        [yellow]Example: [bold cyan]--marital-status married[/bold cyan][/yellow]
+
+  [bold]--education-level LEVEL[/bold] [yellow]Set the education level for the generated profile.[/yellow]
+                        [yellow]Example: [bold cyan]--education-level "Master's Degree"[/bold cyan][/yellow]
+
+  [bold]--hobbies "HOBBY1,HOBBY2"[/bold] [yellow]Set a comma-separated list of hobbies for the profile.[/yellow]
+                        [yellow]Example: [bold cyan]--hobbies "reading,hiking,cooking"[/bold cyan][/yellow]
+
+  [bold]--skills "SKILL1,SKILL2"[/bold]  [yellow]Set a comma-separated list of skills for the profile.[/yellow]
+                        [yellow]Example: [bold cyan]--skills "Python,JavaScript,Cloud Computing"[/bold cyan][/yellow]
+
+  [bold]--include-unconventional[/bold] [yellow]If set, the generated profile may include unconventional or unusual data points, adding more variety. This is a boolean flag, no value needed.[/yellow]
+
+### [bold blue]Interactive Mode Features[/bold blue] ###
+When running in interactive mode, the main menu provides the following options:
+
+  [bold]1. Generate Profiles:[/bold] [green]Guides you through a series of prompts to create fake profiles based on your criteria. After generation, you will have options to save the profiles to a file (JSON/CSV) and run consistency checks.[/green]
+  [bold]2. Information about Project:[/bold] [green]Displays detailed information about this project, including version, description, and author.[/green]
+  [bold]3. Check System Requirements:[/bold] [green]Verifies if your system meets the necessary requirements to run the application smoothly.[/green]
+  [bold]4. Exit:[/bold] [green]Quits the application.[/green]

@@ -1,0 +1,247 @@
+{
+  "personality_traits": [
+    {
+      "name": "Adventurous",
+      "hidden_attribute_biases": {
+        "routine_predictability": {"min": 0, "max": 300, "weight": 3},
+        "impulse_control": {"min": 0, "max": 500, "weight": 2}
+      }
+    },
+    {
+      "name": "Calm",
+      "hidden_attribute_biases": {
+        "impulse_control": {"min": 700, "max": 1000, "weight": 3},
+        "stability_index": {"min": 600, "max": 1000, "weight": 2}
+      }
+    },
+    {
+      "name": "Creative",
+      "hidden_attribute_biases": {
+        "cognitive_style_score": {"min": 0, "max": 400, "weight": 3},
+        "routine_predictability": {"min": 0, "max": 500, "weight": 2}
+      }
+    },
+    "Curious", "Determined",
+    "Empathetic", "Energetic", "Generous", "Optimistic", "Patient",
+    "Pessimistic", "Realistic", "Reserved", "Sociable", "Spontaneous",
+    "Thoughtful", "Witty", "Adaptable", "Ambitious", "Cautious",
+    "Confident", "Conscientious", "Courageous", "Dependable", "Diplomatic",
+    "Disciplined", "Easygoing", "Efficient", "Flexible", "Focused",
+    "Friendly", "Humble", "Independent", "Innovative", "Insightful",
+    "Intuitive", "Kind", "Logical", "Loyal", "Mature",
+    "Methodical", "Meticulous", "Modest", "Observant", "Open-minded",
+    "Organized", "Outgoing", "Perceptive", "Persistent", "Playful",
+    "Practical", "Proactive", "Rational", "Reliable", "Resourceful",
+    "Responsible", "Sarcastic", "Self-aware", "Sensitive", "Sincere",
+    "Strategic", "Strict", "Stubborn", "Supportive", "Tactful",
+    "Tolerant", "Trusting", "Understanding", "Versatile", "Warm",
+    "Zealous"
+  ],
+  "communication_styles": [
+    {
+      "name": "Direct",
+      "hidden_attribute_biases": {
+        "communication_formality": {"min": 0, "max": 500, "weight": 2},
+        "impulse_control": {"min": 0, "max": 600, "weight": 1}
+      }
+    },
+    {
+      "name": "Analytical",
+      "hidden_attribute_biases": {
+        "cognitive_style_score": {"min": 700, "max": 1000, "weight": 3},
+        "verbosity_level": {"min": 0, "max": 500, "weight": 2}
+      }
+    },
+    "Indirect", "Assertive", "Passive", "Aggressive",
+    "Passive-Aggressive", "Open", "Reserved", "Formal", "Informal",
+    "Concise", "Verbose", "Listener", "Talker", "Collaborative",
+    "Authoritative", "Empathetic", "Expressive", "Diplomatic"
+  ],
+  "online_behaviors": [
+    {
+      "name": "Active on social media",
+      "hidden_attribute_biases": {
+        "social_web_density": {"min": 700, "max": 1000, "weight": 3},
+        "performative_tendency": {"min": 500, "max": 1000, "weight": 2}
+      }
+    },
+    {
+      "name": "Privacy-conscious",
+      "hidden_attribute_biases": {
+        "social_web_density": {"min": 0, "max": 300, "weight": 3},
+        "impulse_control": {"min": 600, "max": 1000, "weight": 2}
+      }
+    },
+    "Frequent online shopper", "Online gamer",
+    "Reads news online", "Watches streaming services", "Online learner",
+    "Tech-savvy", "Shares opinions online", "Lurker",
+    "Content creator", "Forum participant", "Review writer", "Early adopter of tech",
+    "Skeptical of online information", "Engages in online debates", "Uses ad-blockers",
+    "Follows influencers", "Posts frequently", "Rarely posts"
+  ],
+  "life_events": [
+    {
+      "event": "Started school",
+      "age_range": [5, 6]
+    },
+    {
+      "event": "Graduated high school",
+      "age_range": [17, 18]
+    },
+    {
+      "event": "Started university/college",
+      "age_range": [18, 20]
+    },
+    {
+      "event": "Graduated university/college",
+      "age_range": [21, 24]
+    },
+    {
+      "event": "Got first job",
+      "age_range": [18, 25]
+    },
+    {
+      "event": "Moved out of parents' home",
+      "age_range": [18, 25]
+    },
+    {
+      "event": "Got married",
+      "age_range": [20, 40]
+    },
+    {
+      "event": "Had first child",
+      "age_range": [22, 45]
+    },
+    {
+      "event": "Bought a house",
+      "age_range": [25, 50]
+    },
+    {
+      "event": "Changed career",
+      "age_range": [25, 55]
+    },
+    {
+      "event": "Experienced a significant accident/illness",
+      "age_range": [10, 80]
+    },
+    {
+      "event": "Traveled extensively",
+      "age_range": [20, 60]
+    },
+    {
+      "event": "Retired",
+      "age_range": [55, 70]
+    },
+    {
+      "event": "Became a grandparent",
+      "age_range": [45, 80]
+    },
+    {
+      "event": "Lost a spouse",
+      "age_range": [50, 90]
+    },
+    {
+      "event": "Volunteered for a cause",
+      "age_range": [18, 90]
+    },
+    {
+      "event": "Learned a new language",
+      "age_range": [10, 70]
+    },
+    {
+      "event": "Started a business",
+      "age_range": [20, 60]
+    },
+    {
+      "event": "Published a book/article",
+      "age_range": [25, 80]
+    },
+    {
+      "event": "Won an award",
+      "age_range": [15, 90]
+    },
+    {
+      "event": "Moved to a new country",
+      "age_range": [18, 60]
+    },
+    {
+      "event": "Adopted a pet",
+      "age_range": [10, 80]
+    },
+    {
+      "event": "Survived a natural disaster",
+      "age_range": [0, 90]
+    },
+    {
+      "event": "Became a mentor",
+      "age_range": [30, 80]
+    },
+    {
+      "event": "Learned to play an instrument",
+      "age_range": [5, 70]
+    },
+    {
+      "event": "Ran a marathon",
+      "age_range": [18, 60]
+    },
+    {
+      "event": "Published a creative work",
+      "age_range": [20, 80]
+    },
+    {
+      "event": "Started a non-profit",
+      "age_range": [25, 70]
+    },
+    {
+      "event": "Received a significant inheritance",
+      "age_range": [18, 90]
+    }
+  ],
+  "texting_typing_styles": [
+    "Uses full sentences and punctuation",
+    "Uses abbreviations and slang (e.g., lol, brb)",
+    "Frequent use of emojis",
+    "Minimalist, short replies",
+    "Writes without accents (Vietnamese context)",
+    "Uses 'like' or 'literally' frequently",
+    "Types very fast, with occasional typos",
+    "Prefers voice notes over typing",
+    "Uses excessive exclamation marks",
+    "Capitalizes first letter of every word"
+  ],
+  "digital_footprints": [
+    "Active on old forums/message boards",
+    "Has multiple dormant social media accounts",
+    "Left old comments/posts on obscure websites",
+    "Has an old blog or personal website",
+    "Participated in online communities from early 2000s",
+    "Used early chat clients (e.g., Yahoo Messenger, ICQ)",
+    "Has old photos/videos uploaded to defunct platforms",
+    "Left reviews on niche product sites",
+    "Has an old, rarely checked email address"
+  ],
+  "device_habits": [
+    {
+      "name": "Frequent use of airplane mode",
+      "hidden_attribute_biases": {
+        "social_web_density": {"min": 0, "max": 400, "weight": 3},
+        "routine_predictability": {"min": 600, "max": 1000, "weight": 2}
+      }
+    },
+    {
+      "name": "Always has location services on",
+      "hidden_attribute_biases": {
+        "social_web_density": {"min": 600, "max": 1000, "weight": 3},
+        "impulse_control": {"min": 0, "max": 500, "weight": 2}
+      }
+    },
+    "Always on dark mode",
+    "Keeps phone on silent/vibrate",
+    "Charges phone overnight",
+    "Uses phone until battery is very low",
+    "Has multiple devices (phone, tablet, laptop)",
+    "Uses a smart watch",
+    "Disables all notifications",
+    "Uses custom ringtones/notification sounds"
+  ]
+}

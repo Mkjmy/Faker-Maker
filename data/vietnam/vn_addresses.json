@@ -1,0 +1,1595 @@
+{
+  "regions": [
+    {
+      "name": "Northern Region",
+      "provinces": [
+        {
+          "name": "Hà Nội City",
+          "type": "City (Capital)",
+          "geography": {
+            "is_mountainous": false,
+            "terrain_type": "Delta"
+          },
+          "economy": {
+            "gdp_per_capita_usd": 6500,
+            "economic_classification": "Developed"
+          },
+          "tourism_status": "High",
+          "administrative_units": [
+            {
+              "name": "Hoàn Kiếm District",
+              "type": "District",
+              "sub_units": [
+                {
+                  "name": "Tràng Tiền Ward",
+                  "type": "Ward",
+                  "streets": [
+                    {
+                      "name": "Đinh Tiên Hoàng Street",
+                      "length_km": 0.7
+                    },
+                    {
+                      "name": "Lê Thái Tổ Street",
+                      "length_km": 0.6
+                    }
+                  ]
+                },
+                {
+                  "name": "Hàng Gai Ward",
+                  "type": "Ward",
+                  "streets": [
+                    {"name": "Hàng Gai Street", "length_km": 0.5},
+                    {"name": "Hàng Đào Street", "length_km": 0.4}
+                  ]
+                },
+                {
+                  "name": "Hàng Buồm Ward",
+                  "type": "Ward",
+                  "streets": [
+                    {"name": "Hàng Buồm Street", "length_km": 0.4},
+                    {"name": "Hàng Ngang Street", "length_km": 0.3}
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Cầu Giấy District",
+              "type": "District",
+              "sub_units": [
+                {
+                  "name": "Dịch Vọng Hậu Ward",
+                  "type": "Ward",
+                  "streets": [
+                    {"name": "Xuân Thủy Street", "length_km": 1.2},
+                    {"name": "Hồ Tùng Mậu Street", "length_km": 1.5}
+                  ]
+                },
+                {
+                  "name": "Yên Hòa Ward",
+                  "type": "Ward",
+                  "streets": [
+                    {"name": "Phạm Hùng Street", "length_km": 2.0},
+                    {"name": "Trung Kính Street", "length_km": 1.8}
+                  ]
+                },
+                {
+                  "name": "Nghĩa Đô Ward",
+                  "type": "Ward",
+                  "streets": [
+                    {"name": "Hoàng Quốc Việt Street", "length_km": 2.5}
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Ba Vì District",
+              "type": "District",
+              "sub_units": [
+                {
+                  "name": "Ba Trại Commune",
+                  "type": "Commune",
+                  "streets": [
+                    {"name": "Provincial Road 414", "length_km": 5.0},
+                    {"name": "Village Road", "length_km": 1.0}
+                  ]
+                },
+                {
+                  "name": "Tây Đằng Township",
+                  "type": "Township",
+                  "streets": [
+                    {"name": "National Highway 32", "length_km": 3.5}
+                  ]
+                },
+                {
+                  "name": "Vân Hòa Commune",
+                  "type": "Commune",
+                  "streets": [
+                    {"name": "Hill Road", "length_km": 2.0}
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hải Phòng City",
+          "type": "City (Central-level)",
+          "geography": {
+            "is_mountainous": false,
+            "terrain_type": "Coastal"
+          },
+          "economy": {
+            "gdp_per_capita_usd": 5000,
+            "economic_classification": "Developing"
+          },
+          "tourism_status": "High",
+          "administrative_units": [
+            {
+              "name": "Ngô Quyền District",
+              "type": "District",
+              "sub_units": [
+                {
+                  "name": "Lạch Tray Ward",
+                  "type": "Ward",
+                  "streets": [
+                    {"name": "Lạch Tray Street", "length_km": 2.0},
+                    {"name": "Nguyễn Đức Cảnh Street", "length_km": 1.0}
+                  ]
+                },
+                {
+                  "name": "Đông Khê Ward",
+                  "type": "Ward",
+                  "streets": [
+                    {"name": "Lê Hồng Phong Street", "length_km": 3.0},
+                    {"name": "Văn Cao Street", "length_km": 2.2}
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Lê Chân District",
+              "type": "District",
+              "sub_units": [
+                {
+                  "name": "Kênh Dương Ward",
+                  "type": "Ward",
+                  "streets": [
+                    {"name": "Võ Nguyên Giáp Street", "length_km": 4.0},
+                    {"name": "Hoàng Sa Street", "length_km": 3.5}
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Bắc Giang Province",
+          "type": "Province",
+          "geography": {
+            "is_mountainous": false,
+            "terrain_type": "Midlands"
+          },
+          "economy": {
+            "gdp_per_capita_usd": 3000,
+            "economic_classification": "Developing"
+          },
+          "tourism_status": "Medium",
+          "administrative_units": [
+            {
+              "name": "Bắc Giang City",
+              "type": "City",
+              "sub_units": [
+                {
+                  "name": "Xương Giang Ward",
+                  "type": "Ward",
+                  "streets": [
+                    {"name": "Hùng Vương Street", "length_km": 2.5},
+                    {"name": "Lê Lợi Street", "length_km": 1.8}
+                  ]
+                },
+                {
+                  "name": "Ngô Quyền Ward",
+                  "type": "Ward",
+                  "streets": [
+                    {"name": "Nguyễn Thị Minh Khai Street", "length_km": 1.5}
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Quảng Ninh Province",
+          "type": "Province",
+          "geography": {
+            "is_mountainous": true,
+            "terrain_type": "Coastal, Mountainous"
+          },
+          "economy": {
+            "gdp_per_capita_usd": 4800,
+            "economic_classification": "Developing"
+          },
+          "tourism_status": "High",
+          "administrative_units": [
+            {
+              "name": "Hạ Long City",
+              "type": "City",
+              "sub_units": [
+                {
+                  "name": "Bãi Cháy Ward",
+                  "type": "Ward",
+                  "streets": [
+                    {"name": "Bãi Cháy Street", "length_km": 3.0},
+                    {"name": "Hạ Long Street", "length_km": 2.5}
+                  ]
+                },
+                {
+                  "name": "Hồng Gai Ward",
+                  "type": "Ward",
+                  "streets": [
+                    {"name": "Hồng Gai Street", "length_km": 1.8},
+                    {"name": "Lê Thánh Tông Street", "length_km": 1.5}
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Uông Bí City",
+              "type": "City",
+              "sub_units": [
+                {
+                  "name": "Quang Trung Ward",
+                  "type": "Ward",
+                  "streets": [
+                    {"name": "Trần Hưng Đạo Street", "length_km": 2.0}
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Lào Cai Province",
+          "type": "Province",
+          "allows_early_marriage": true,
+          "geography": {
+            "is_mountainous": true,
+            "terrain_type": "Mountainous"
+          },
+          "economy": {
+            "gdp_per_capita_usd": 2500,
+            "economic_classification": "Rural"
+          },
+          "tourism_status": "High",
+          "administrative_units": [
+            {
+              "name": "Sa Pa Town",
+              "type": "Town",
+              "sub_units": [
+                {
+                  "name": "Sa Pa Ward",
+                  "type": "Ward",
+                  "streets": [
+                    {"name": "Fansipan Street", "length_km": 2.0},
+                    {"name": "Cầu Mây Street", "length_km": 1.0}
+                  ]
+                },
+                {
+                  "name": "Lao Chải Commune",
+                  "type": "Commune",
+                  "streets": [
+                    {"name": "Bản Hồ Road", "length_km": 3.0}
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Điện Biên Province",
+          "type": "Province",
+          "allows_early_marriage": true,
+          "geography": {
+            "is_mountainous": true,
+            "terrain_type": "Mountainous"
+          },
+          "economy": {
+            "gdp_per_capita_usd": 2000,
+            "economic_classification": "Rural"
+          },
+          "tourism_status": "Medium",
+          "administrative_units": [
+            {
+              "name": "Điện Biên Phủ City",
+              "type": "City",
+              "sub_units": [
+                {
+                  "name": "Mường Thanh Ward",
+                  "type": "Ward",
+                  "streets": [
+                    {"name": "Võ Nguyên Giáp Street", "length_km": 3.0},
+                    {"name": "Trần Đăng Ninh Street", "length_km": 2.5}
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Lạng Sơn Province",
+          "type": "Province",
+          "allows_early_marriage": true,
+          "geography": {
+            "is_mountainous": true,
+            "terrain_type": "Mountainous"
+          },
+          "economy": {
+            "gdp_per_capita_usd": 2200,
+            "economic_classification": "Rural"
+          },
+          "tourism_status": "Medium",
+          "administrative_units": [
+            {
+              "name": "Lạng Sơn City",
+              "type": "City",
+              "sub_units": [
+                {
+                  "name": "Vĩnh Trại Ward",
+                  "type": "Ward",
+                  "streets": [
+                    {"name": "Trần Đăng Ninh Street", "length_km": 1.5},
+                    {"name": "Phan Đình Phùng Street", "length_km": 1.0}
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Cao Bằng Province",
+          "type": "Province",
+          "allows_early_marriage": true,
+          "geography": {
+            "is_mountainous": true,
+            "terrain_type": "Mountainous"
+          },
+          "economy": {
+            "gdp_per_capita_usd": 2100,
+            "economic_classification": "Rural"
+          },
+          "tourism_status": "Low",
+          "administrative_units": [
+            {
+              "name": "Cao Bằng City",
+              "type": "City",
+              "sub_units": [
+                {
+                  "name": "Sông Bằng Ward",
+                  "type": "Ward",
+                  "streets": [
+                    {"name": "Hoàng Văn Thụ Street", "length_km": 1.2},
+                    {"name": "Vườn Cam Street", "length_km": 0.8}
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Bắc Kạn Province",
+          "type": "Province",
+          "allows_early_marriage": true,
+          "geography": {
+            "is_mountainous": true,
+            "terrain_type": "Mountainous"
+          },
+          "economy": {
+            "gdp_per_capita_usd": 2050,
+            "economic_classification": "Rural"
+          },
+          "tourism_status": "Low",
+          "administrative_units": [
+            {
+              "name": "Bắc Kạn City",
+              "type": "City",
+              "sub_units": [
+                {
+                  "name": "Đức Xuân Ward",
+                  "type": "Ward",
+                  "streets": [
+                    {"name": "Trường Chinh Street", "length_km": 1.0},
+                    {"name": "Nguyễn Thị Minh Khai Street", "length_km": 0.7}
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Tuyên Quang Province",
+          "type": "Province",
+          "allows_early_marriage": true,
+          "geography": {
+            "is_mountainous": true,
+            "terrain_type": "Mountainous"
+          },
+          "economy": {
+            "gdp_per_capita_usd": 2300,
+            "economic_classification": "Rural"
+          },
+          "tourism_status": "Medium",
+          "administrative_units": [
+            {
+              "name": "Tuyên Quang City",
+              "type": "City",
+              "sub_units": [
+                {
+                  "name": "Phan Thiết Ward",
+                  "type": "Ward",
+                  "streets": [
+                    {"name": "Quang Trung Street", "length_km": 1.3},
+                    {"name": "Bình Thuận Street", "length_km": 1.0}
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Thái Nguyên Province",
+          "type": "Province",
+          "geography": {
+            "is_mountainous": false,
+            "terrain_type": "Midlands"
+          },
+          "economy": {
+            "gdp_per_capita_usd": 3500,
+            "economic_classification": "Developing"
+          },
+          "tourism_status": "Medium",
+          "administrative_units": [
+            {
+              "name": "Thái Nguyên City",
+              "type": "City",
+              "sub_units": [
+                {
+                  "name": "Hoàng Văn Thụ Ward",
+                  "type": "Ward",
+                  "streets": [
+                    {"name": "Lương Ngọc Quyến Street", "length_km": 2.0},
+                    {"name": "Phan Đình Phùng Street", "length_km": 1.5}
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Phú Thọ Province",
+          "type": "Province",
+          "geography": {
+            "is_mountainous": false,
+            "terrain_type": "Midlands"
+          },
+          "economy": {
+            "gdp_per_capita_usd": 2800,
+            "economic_classification": "Developing"
+          },
+          "tourism_status": "Medium",
+          "administrative_units": [
+            {
+              "name": "Việt Trì City",
+              "type": "City",
+              "sub_units": [
+                {
+                  "name": "Nông Trang Ward",
+                  "type": "Ward",
+                  "streets": [
+                    {"name": "Hùng Vương Boulevard", "length_km": 3.0},
+                    {"name": "Nguyễn Tất Thành Street", "length_km": 2.0}
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Vĩnh Phúc Province",
+          "type": "Province",
+          "geography": {
+            "is_mountainous": false,
+            "terrain_type": "Delta"
+          },
+          "economy": {
+            "gdp_per_capita_usd": 4000,
+            "economic_classification": "Developing"
+          },
+          "tourism_status": "Medium",
+          "administrative_units": [
+            {
+              "name": "Vĩnh Yên City",
+              "type": "City",
+              "sub_units": [
+                {
+                  "name": "Khai Quang Ward",
+                  "type": "Ward",
+                  "streets": [
+                    {"name": "Mê Linh Street", "length_km": 2.2},
+                    {"name": "Nguyễn Tất Thành Street", "length_km": 1.8}
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Bắc Ninh Province",
+          "type": "Province",
+          "geography": {
+            "is_mountainous": false,
+            "terrain_type": "Delta"
+          },
+          "economy": {
+            "gdp_per_capita_usd": 5500,
+            "economic_classification": "Developed"
+          },
+          "tourism_status": "Medium",
+          "administrative_units": [
+            {
+              "name": "Bắc Ninh City",
+              "type": "City",
+              "sub_units": [
+                {
+                  "name": "Suối Hoa Ward",
+                  "type": "Ward",
+                  "streets": [
+                    {"name": "Lý Thái Tổ Street", "length_km": 2.8},
+                    {"name": "Nguyễn Gia Thiều Street", "length_km": 1.5}
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Sơn La Province",
+          "type": "Province",
+          "allows_early_marriage": true,
+          "geography": {
+            "is_mountainous": true,
+            "terrain_type": "Mountainous"
+          },
+          "economy": {
+            "gdp_per_capita_usd": 2100,
+            "economic_classification": "Rural"
+          },
+          "tourism_status": "Low",
+          "administrative_units": [
+            {
+              "name": "Sơn La City",
+              "type": "City",
+              "sub_units": [
+                {
+                  "name": "Chiềng Lề Ward",
+                  "type": "Ward",
+                  "streets": [
+                    {"name": "Tô Hiệu Street", "length_km": 1.5},
+                    {"name": "Trần Đăng Ninh Street", "length_km": 1.0}
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hòa Bình Province",
+          "type": "Province",
+          "allows_early_marriage": true,
+          "geography": {
+            "is_mountainous": true,
+            "terrain_type": "Mountainous"
+          },
+          "economy": {
+            "gdp_per_capita_usd": 2400,
+            "economic_classification": "Rural"
+          },
+          "tourism_status": "Medium",
+          "administrative_units": [
+            {
+              "name": "Hòa Bình City",
+              "type": "City",
+              "sub_units": [
+                {
+                  "name": "Phương Lâm Ward",
+                  "type": "Ward",
+                  "streets": [
+                    {"name": "Cù Chính Lan Street", "length_km": 1.0},
+                    {"name": "Trần Hưng Đạo Street", "length_km": 0.8}
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hưng Yên Province",
+          "type": "Province",
+          "geography": {
+            "is_mountainous": false,
+            "terrain_type": "Delta"
+          },
+          "economy": {
+            "gdp_per_capita_usd": 3800,
+            "economic_classification": "Developing"
+          },
+          "tourism_status": "Low",
+          "administrative_units": [
+            {
+              "name": "Hưng Yên City",
+              "type": "City",
+              "sub_units": [
+                {
+                  "name": "Hiến Nam Ward",
+                  "type": "Ward",
+                  "streets": [
+                    {"name": "Nguyễn Văn Linh Street", "length_km": 2.0},
+                    {"name": "Chùa Chuông Street", "length_km": 1.2}
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Thái Bình Province",
+          "type": "Province",
+          "geography": {
+            "is_mountainous": false,
+            "terrain_type": "Delta"
+          },
+          "economy": {
+            "gdp_per_capita_usd": 3200,
+            "economic_classification": "Developing"
+          },
+          "tourism_status": "Low",
+          "administrative_units": [
+            {
+              "name": "Thái Bình City",
+              "type": "City",
+              "sub_units": [
+                {
+                  "name": "Trần Lãm Ward",
+                  "type": "Ward",
+                  "streets": [
+                    {"name": "Trần Hưng Đạo Street", "length_km": 2.5},
+                    {"name": "Lê Lợi Street", "length_km": 1.8}
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Nam Định Province",
+          "type": "Province",
+          "geography": {
+            "is_mountainous": false,
+            "terrain_type": "Delta"
+          },
+          "economy": {
+            "gdp_per_capita_usd": 3100,
+            "economic_classification": "Developing"
+          },
+          "tourism_status": "Medium",
+          "administrative_units": [
+            {
+              "name": "Nam Định City",
+              "type": "City",
+              "sub_units": [
+                {
+                  "name": "Vị Hoàng Ward",
+                  "type": "Ward",
+                  "streets": [
+                    {"name": "Trần Phú Street", "length_km": 1.8},
+                    {"name": "Hàng Tiện Street", "length_km": 1.0}
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hà Nam Province",
+          "type": "Province",
+          "geography": {
+            "is_mountainous": false,
+            "terrain_type": "Delta"
+          },
+          "economy": {
+            "gdp_per_capita_usd": 3300,
+            "economic_classification": "Developing"
+          },
+          "tourism_status": "Low",
+          "administrative_units": [
+            {
+              "name": "Phủ Lý City",
+              "type": "City",
+              "sub_units": [
+                {
+                  "name": "Lương Khánh Thiện Ward",
+                  "type": "Ward",
+                  "streets": [
+                    {"name": "Biên Hòa Street", "length_km": 1.0},
+                    {"name": "Trần Hưng Đạo Street", "length_km": 0.8}
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Ninh Bình Province",
+          "type": "Province",
+          "geography": {
+            "is_mountainous": false,
+            "terrain_type": "Coastal, Delta"
+          },
+          "economy": {
+            "gdp_per_capita_usd": 3400,
+            "economic_classification": "Developing"
+          },
+          "tourism_status": "High",
+          "administrative_units": [
+            {
+              "name": "Ninh Bình City",
+              "type": "City",
+              "sub_units": [
+                {
+                  "name": "Đông Thành Ward",
+                  "type": "Ward",
+                  "streets": [
+                    {"name": "Trần Hưng Đạo Street", "length_km": 2.0},
+                    {"name": "Lê Đại Hành Street", "length_km": 1.5}
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hà Giang Province",
+          "type": "Province",
+          "allows_early_marriage": true,
+          "geography": {
+            "is_mountainous": true,
+            "terrain_type": "Mountainous"
+          },
+          "economy": {
+            "gdp_per_capita_usd": 1900,
+            "economic_classification": "Rural"
+          },
+          "tourism_status": "Medium",
+          "administrative_units": [
+            {
+              "name": "Hà Giang City",
+              "type": "City",
+              "sub_units": [
+                {
+                  "name": "Trần Phú Ward",
+                  "type": "Ward",
+                  "streets": [
+                    {"name": "Nguyễn Trãi Street", "length_km": 1.0},
+                    {"name": "Trần Phú Street", "length_km": 0.8}
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Central Region",
+      "provinces": [
+        {
+          "name": "Đà Nẵng City",
+          "type": "City (Central-level)",
+          "geography": {
+            "is_mountainous": false,
+            "terrain_type": "Coastal"
+          },
+          "economy": {
+            "gdp_per_capita_usd": 5200,
+            "economic_classification": "Developed"
+          },
+          "tourism_status": "High",
+          "administrative_units": [
+            {
+              "name": "Hải Châu District",
+              "type": "District",
+              "sub_units": [
+                {
+                  "name": "Thạch Thang Ward",
+                  "type": "Ward",
+                  "streets": [
+                    {"name": "Bạch Đằng Street", "length_km": 2.0},
+                    {"name": "Trần Phú Street", "length_km": 1.5}
+                  ]
+                },
+                {
+                  "name": "Phước Ninh Ward",
+                  "type": "Ward",
+                  "streets": [
+                    {"name": "Lê Duẩn Street", "length_km": 1.8},
+                    {"name": "Hùng Vương Street", "length_km": 1.3}
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Sơn Trà District",
+              "type": "District",
+              "sub_units": [
+                {
+                  "name": "An Hải Bắc Ward",
+                  "type": "Ward",
+                  "streets": [
+                    {"name": "Võ Nguyên Giáp Street", "length_km": 4.0},
+                    {"name": "Hoàng Sa Street", "length_km": 3.5}
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Huế City",
+          "type": "City (Central-level)",
+          "geography": {
+            "is_mountainous": false,
+            "terrain_type": "Coastal"
+          },
+          "economy": {
+            "gdp_per_capita_usd": 3800,
+            "economic_classification": "Developing"
+          },
+          "tourism_status": "High",
+          "administrative_units": [
+            {
+              "name": "Huế City",
+              "type": "City",
+              "sub_units": [
+                {
+                  "name": "Phú Hội Ward",
+                  "type": "Ward",
+                  "streets": [
+                    {"name": "Lê Lợi Street", "length_km": 1.8},
+                    {"name": "Hùng Vương Street", "length_km": 1.2}
+                  ]
+                },
+                {
+                  "name": "Vĩnh Ninh Ward",
+                  "type": "Ward",
+                  "streets": [
+                    {"name": "Trần Hưng Đạo Street", "length_km": 1.5},
+                    {"name": "Nguyễn Huệ Street", "length_km": 1.0}
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Thanh Hóa Province",
+          "type": "Province",
+          "geography": {
+            "is_mountainous": false,
+            "terrain_type": "Coastal, Delta"
+          },
+          "economy": {
+            "gdp_per_capita_usd": 3000,
+            "economic_classification": "Developing"
+          },
+          "tourism_status": "Medium",
+          "administrative_units": [
+            {
+              "name": "Thanh Hóa City",
+              "type": "City",
+              "sub_units": [
+                {
+                  "name": "Lam Sơn Ward",
+                  "type": "Ward",
+                  "streets": [
+                    {"name": "Trần Phú Street", "length_km": 2.0},
+                    {"name": "Lê Hoàn Street", "length_km": 1.5}
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Nghệ An Province",
+          "type": "Province",
+          "allows_early_marriage": true,
+          "geography": {
+            "is_mountainous": true,
+            "terrain_type": "Coastal, Mountainous"
+          },
+          "economy": {
+            "gdp_per_capita_usd": 2900,
+            "economic_classification": "Developing"
+          },
+          "tourism_status": "Medium",
+          "administrative_units": [
+            {
+              "name": "Vinh City",
+              "type": "City",
+              "sub_units": [
+                {
+                  "name": "Hưng Dũng Ward",
+                  "type": "Ward",
+                  "streets": [
+                    {"name": "Lê Mao Street", "length_km": 1.5},
+                    {"name": "Nguyễn Du Street", "length_km": 1.0}
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hà Tĩnh Province",
+          "type": "Province",
+          "allows_early_marriage": true,
+          "geography": {
+            "is_mountainous": true,
+            "terrain_type": "Coastal, Mountainous"
+          },
+          "economy": {
+            "gdp_per_capita_usd": 2800,
+            "economic_classification": "Developing"
+          },
+          "tourism_status": "Medium",
+          "administrative_units": [
+            {
+              "name": "Hà Tĩnh City",
+              "type": "City",
+              "sub_units": [
+                {
+                  "name": "Trần Phú Ward",
+                  "type": "Ward",
+                  "streets": [
+                    {"name": "Phan Đình Phùng Street", "length_km": 1.2},
+                    {"name": "Nguyễn Công Trứ Street", "length_km": 0.9}
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Quảng Bình Province",
+          "type": "Province",
+          "allows_early_marriage": true,
+          "geography": {
+            "is_mountainous": true,
+            "terrain_type": "Coastal, Mountainous"
+          },
+          "economy": {
+            "gdp_per_capita_usd": 2700,
+            "economic_classification": "Developing"
+          },
+          "tourism_status": "Medium",
+          "administrative_units": [
+            {
+              "name": "Đồng Hới City",
+              "type": "City",
+              "sub_units": [
+                {
+                  "name": "Đồng Phú Ward",
+                  "type": "Ward",
+                  "streets": [
+                    {"name": "Trần Hưng Đạo Street", "length_km": 2.0},
+                    {"name": "Quang Trung Street", "length_km": 1.5}
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Quảng Nam Province",
+          "type": "Province",
+          "allows_early_marriage": true,
+          "geography": {
+            "is_mountainous": true,
+            "terrain_type": "Coastal, Mountainous"
+          },
+          "economy": {
+            "gdp_per_capita_usd": 3500,
+            "economic_classification": "Developing"
+          },
+          "tourism_status": "High",
+          "administrative_units": [
+            {
+              "name": "Tam Kỳ City",
+              "type": "City",
+              "sub_units": [
+                {
+                  "name": "An Sơn Ward",
+                  "type": "Ward",
+                  "streets": [
+                    {"name": "Phan Bội Châu Street", "length_km": 1.5},
+                    {"name": "Hùng Vương Street", "length_km": 1.2}
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Quảng Ngãi Province",
+          "type": "Province",
+          "allows_early_marriage": true,
+          "geography": {
+            "is_mountainous": true,
+            "terrain_type": "Coastal, Mountainous"
+          },
+          "economy": {
+            "gdp_per_capita_usd": 3300,
+            "economic_classification": "Developing"
+          },
+          "tourism_status": "Medium",
+          "administrative_units": [
+            {
+              "name": "Quảng Ngãi City",
+              "type": "City",
+              "sub_units": [
+                {
+                  "name": "Trần Phú Ward",
+                  "type": "Ward",
+                  "streets": [
+                    {"name": "Hùng Vương Street", "length_km": 1.8},
+                    {"name": "Quang Trung Street", "length_km": 1.3}
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Bình Định Province",
+          "type": "Province",
+          "geography": {
+            "is_mountainous": false,
+            "terrain_type": "Coastal"
+          },
+          "economy": {
+            "gdp_per_capita_usd": 3600,
+            "economic_classification": "Developing"
+          },
+          "tourism_status": "Medium",
+          "administrative_units": [
+            {
+              "name": "Quy Nhơn City",
+              "type": "City",
+              "sub_units": [
+                {
+                  "name": "Lê Hồng Phong Ward",
+                  "type": "Ward",
+                  "streets": [
+                    {"name": "Nguyễn Tất Thành Street", "length_km": 2.0},
+                    {"name": "Lê Hồng Phong Street", "length_km": 1.5}
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Phú Yên Province",
+          "type": "Province",
+          "geography": {
+            "is_mountainous": false,
+            "terrain_type": "Coastal"
+          },
+          "economy": {
+            "gdp_per_capita_usd": 3000,
+            "economic_classification": "Developing"
+          },
+          "tourism_status": "Low",
+          "administrative_units": [
+            {
+              "name": "Tuy Hòa City",
+              "type": "City",
+              "sub_units": [
+                {
+                  "name": "Ward 7",
+                  "type": "Ward",
+                  "streets": [
+                    {"name": "Trần Hưng Đạo Street", "length_km": 2.5},
+                    {"name": "Độc Lập Street", "length_km": 1.8}
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Khánh Hòa Province",
+          "type": "Province",
+          "geography": {
+            "is_mountainous": false,
+            "terrain_type": "Coastal"
+          },
+          "economy": {
+            "gdp_per_capita_usd": 4200,
+            "economic_classification": "Developing"
+          },
+          "tourism_status": "High",
+          "administrative_units": [
+            {
+              "name": "Nha Trang City",
+              "type": "City",
+              "sub_units": [
+                {
+                  "name": "Lộc Thọ Ward",
+                  "type": "Ward",
+                  "streets": [
+                    {"name": "Trần Phú Street", "length_km": 4.0},
+                    {"name": "Nguyễn Thiện Thuật Street", "length_km": 2.5}
+                  ]
+                },
+                {
+                  "name": "Vĩnh Hải Ward",
+                  "type": "Ward",
+                  "streets": [
+                    {"name": "Phạm Văn Đồng Street", "length_km": 3.0}
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Ninh Thuận Province",
+          "type": "Province",
+          "geography": {
+            "is_mountainous": false,
+            "terrain_type": "Coastal"
+          },
+          "economy": {
+            "gdp_per_capita_usd": 2900,
+            "economic_classification": "Developing"
+          },
+          "tourism_status": "Medium",
+          "administrative_units": [
+            {
+              "name": "Phan Rang-Tháp Chàm City",
+              "type": "City",
+              "sub_units": [
+                {
+                  "name": "Kinh Dinh Ward",
+                  "type": "Ward",
+                  "streets": [
+                    {"name": "Thống Nhất Street", "length_km": 1.5},
+                    {"name": "21 Tháng 8 Street", "length_km": 1.2}
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Bình Thuận Province",
+          "type": "Province",
+          "geography": {
+            "is_mountainous": false,
+            "terrain_type": "Coastal"
+          },
+          "economy": {
+            "gdp_per_capita_usd": 3500,
+            "economic_classification": "Developing"
+          },
+          "tourism_status": "High",
+          "administrative_units": [
+            {
+              "name": "Phan Thiết City",
+              "type": "City",
+              "sub_units": [
+                {
+                  "name": "Hàm Tiến Ward",
+                  "type": "Ward",
+                  "streets": [
+                    {"name": "Nguyễn Đình Chiểu Street", "length_km": 3.0},
+                    {"name": "Huỳnh Thúc Kháng Street", "length_km": 2.5}
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Kon Tum Province",
+          "type": "Province",
+          "allows_early_marriage": true,
+          "geography": {
+            "is_mountainous": true,
+            "terrain_type": "Highlands"
+          },
+          "economy": {
+            "gdp_per_capita_usd": 2300,
+            "economic_classification": "Rural"
+          },
+          "tourism_status": "Low",
+          "administrative_units": [
+            {
+              "name": "Kon Tum City",
+              "type": "City",
+              "sub_units": [
+                {
+                  "name": "Thắng Lợi Ward",
+                  "type": "Ward",
+                  "streets": [
+                    {"name": "Phan Đình Phùng Street", "length_km": 1.0},
+                    {"name": "Trần Hưng Đạo Street", "length_km": 0.8}
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Gia Lai Province",
+          "type": "Province",
+          "allows_early_marriage": true,
+          "geography": {
+            "is_mountainous": true,
+            "terrain_type": "Highlands"
+          },
+          "economy": {
+            "gdp_per_capita_usd": 2600,
+            "economic_classification": "Developing"
+          },
+          "tourism_status": "Medium",
+          "administrative_units": [
+            {
+              "name": "Pleiku City",
+              "type": "City",
+              "sub_units": [
+                {
+                  "name": "Diên Hồng Ward",
+                  "type": "Ward",
+                  "streets": [
+                    {"name": "Hùng Vương Street", "length_km": 2.0},
+                    {"name": "Lê Lợi Street", "length_km": 1.5}
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Đắk Lắk Province",
+          "type": "Province",
+          "allows_early_marriage": true,
+          "geography": {
+            "is_mountainous": true,
+            "terrain_type": "Highlands"
+          },
+          "economy": {
+            "gdp_per_capita_usd": 2700,
+            "economic_classification": "Developing"
+          },
+          "tourism_status": "Medium",
+          "administrative_units": [
+            {
+              "name": "Buôn Ma Thuột City",
+              "type": "City",
+              "sub_units": [
+                {
+                  "name": "Tân Lợi Ward",
+                  "type": "Ward",
+                  "streets": [
+                    {"name": "Nguyễn Tất Thành Street", "length_km": 3.0},
+                    {"name": "Lê Duẩn Street", "length_km": 2.5}
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Đắk Nông Province",
+          "type": "Province",
+          "allows_early_marriage": true,
+          "geography": {
+            "is_mountainous": true,
+            "terrain_type": "Highlands"
+          },
+          "economy": {
+            "gdp_per_capita_usd": 2500,
+            "economic_classification": "Rural"
+          },
+          "tourism_status": "Low",
+          "administrative_units": [
+            {
+              "name": "Gia Nghĩa City",
+              "type": "City",
+              "sub_units": [
+                {
+                  "name": "Nghĩa Đức Ward",
+                  "type": "Ward",
+                  "streets": [
+                    {"name": "Tôn Đức Thắng Street", "length_km": 1.5},
+                    {"name": "23 Tháng 3 Street", "length_km": 1.0}
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Lâm Đồng Province",
+          "type": "Province",
+          "allows_early_marriage": true,
+          "geography": {
+            "is_mountainous": true,
+            "terrain_type": "Highlands"
+          },
+          "economy": {
+            "gdp_per_capita_usd": 3200,
+            "economic_classification": "Developing"
+          },
+          "tourism_status": "High",
+          "administrative_units": [
+            {
+              "name": "Đà Lạt City",
+              "type": "City",
+              "sub_units": [
+                {
+                  "name": "Ward 1",
+                  "type": "Ward",
+                  "streets": [
+                    {"name": "Trần Quốc Toản Street", "length_km": 1.8},
+                    {"name": "Hồ Xuân Hương Street", "length_km": 2.5}
+                  ]
+                },
+                {
+                  "name": "Ward 3",
+                  "type": "Ward",
+                  "streets": [
+                    {"name": "Trần Phú Street", "length_km": 1.5}
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Southern Region",
+      "provinces": [
+        {
+          "name": "Hồ Chí Minh City",
+          "type": "City (Central-level)",
+          "geography": {
+            "is_mountainous": false,
+            "terrain_type": "Delta"
+          },
+          "economy": {
+            "gdp_per_capita_usd": 7500,
+            "economic_classification": "Developed"
+          },
+          "tourism_status": "High",
+          "administrative_units": [
+            {
+              "name": "District 1",
+              "type": "District",
+              "sub_units": [
+                {
+                  "name": "Bến Nghé Ward",
+                  "type": "Ward",
+                  "streets": [
+                    {"name": "Nguyễn Huệ Street", "length_km": 1.0},
+                    {"name": "Lê Lợi Street", "length_km": 0.8}
+                  ]
+                },
+                {
+                  "name": "Phạm Ngũ Lão Ward",
+                  "type": "Ward",
+                  "streets": [
+                    {"name": "Bùi Viện Street", "length_km": 0.6},
+                    {"name": "Phạm Ngũ Lão Street", "length_km": 0.7}
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Cần Thơ City",
+          "type": "City (Central-level)",
+          "geography": {
+            "is_mountainous": false,
+            "terrain_type": "Delta"
+          },
+          "economy": {
+            "gdp_per_capita_usd": 4000,
+            "economic_classification": "Developing"
+          },
+          "tourism_status": "Medium",
+          "administrative_units": [
+            {
+              "name": "Ninh Kiều District",
+              "type": "District",
+              "sub_units": [
+                {
+                  "name": "An Cư Ward",
+                  "type": "Ward",
+                  "streets": [
+                    {"name": "Hòa Bình Street", "length_km": 1.5},
+                    {"name": "Nguyễn Trãi Street", "length_km": 1.2}
+                  ]
+                },
+                {
+                  "name": "Cái Khế Ward",
+                  "type": "Ward",
+                  "streets": [
+                    {"name": "30 Tháng 4 Street", "length_km": 2.0}
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Đồng Nai Province",
+          "type": "Province",
+          "geography": {
+            "is_mountainous": false,
+            "terrain_type": "Delta"
+          },
+          "economy": {
+            "gdp_per_capita_usd": 4500,
+            "economic_classification": "Developing"
+          },
+          "tourism_status": "Medium",
+          "administrative_units": [
+            {
+              "name": "Biên Hòa City",
+              "type": "City",
+              "sub_units": [
+                {
+                  "name": "Long Bình Ward",
+                  "type": "Ward",
+                  "streets": [
+                    {"name": "Nguyễn Ái Quốc Street", "length_km": 5.2},
+                    {"name": "Đồng Khởi Street", "length_km": 3.8}
+                  ]
+                },
+                {
+                  "name": "Tam Hiệp Ward",
+                  "type": "Ward",
+                  "streets": [
+                    {"name": "Phạm Văn Thuận Street", "length_km": 2.5}
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Long Thành District",
+              "type": "District",
+              "sub_units": [
+                {
+                  "name": "Long Thành Township",
+                  "type": "Township",
+                  "streets": [
+                    {"name": "Lê Duẩn Street", "length_km": 4.0},
+                    {"name": "Nguyễn Hữu Cảnh Street", "length_km": 2.1}
+                  ]
+                },
+                {
+                  "name": "Bình Sơn Commune",
+                  "type": "Commune",
+                  "streets": [
+                    {"name": "Long Thành Expressway", "length_km": 7.5}
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Bình Dương Province",
+          "type": "Province",
+          "geography": {
+            "is_mountainous": false,
+            "terrain_type": "Delta"
+          },
+          "economy": {
+            "gdp_per_capita_usd": 6000,
+            "economic_classification": "Developed"
+          },
+          "tourism_status": "Medium",
+          "administrative_units": [
+            {
+              "name": "Thủ Dầu Một City",
+              "type": "City",
+              "sub_units": [
+                {
+                  "name": "Phú Cường Ward",
+                  "type": "Ward",
+                  "streets": [
+                    {"name": "Bình Dương Boulevard", "length_km": 7.0},
+                    {"name": "30 Tháng 4 Street", "length_km": 2.5}
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Bà Rịa - Vũng Tàu Province",
+          "type": "Province",
+          "geography": {
+            "is_mountainous": false,
+            "terrain_type": "Coastal"
+          },
+          "economy": {
+            "gdp_per_capita_usd": 5500,
+            "economic_classification": "Developing"
+          },
+          "tourism_status": "High",
+          "administrative_units": [
+            {
+              "name": "Vũng Tàu City",
+              "type": "City",
+              "sub_units": [
+                {
+                  "name": "Thắng Tam Ward",
+                  "type": "Ward",
+                  "streets": [
+                    {"name": "Hạ Long Street", "length_km": 3.0},
+                    {"name": "Thùy Vân Street", "length_km": 4.5}
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Long An Province",
+          "type": "Province",
+          "geography": {
+            "is_mountainous": false,
+            "terrain_type": "Delta"
+          },
+          "economy": {
+            "gdp_per_capita_usd": 3000,
+            "economic_classification": "Developing"
+          },
+          "tourism_status": "Low",
+          "administrative_units": [
+            {
+              "name": "Tân An City",
+              "type": "City",
+              "sub_units": [
+                {
+                  "name": "Ward 2",
+                  "type": "Ward",
+                  "streets": [
+                    {"name": "Hùng Vương Street", "length_km": 2.0},
+                    {"name": "Nguyễn Đình Chiểu Street", "length_km": 1.5}
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

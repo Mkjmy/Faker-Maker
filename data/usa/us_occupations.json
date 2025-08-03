@@ -1,0 +1,18 @@
+
+{
+  "occupations": [
+    {"name": "Software Engineer", "min_age": 21, "max_age": 65, "typical_education_level": "Bachelors", "gender_bias": {"male": 0.8, "female": 0.2}, "industry": "Technology"},
+    {"name": "Registered Nurse", "min_age": 21, "max_age": 65, "typical_education_level": "Associates", "gender_bias": {"female": 0.9, "male": 0.1}, "industry": "Healthcare"},
+    {"name": "Retail Salesperson", "min_age": 16, "max_age": 65, "typical_education_level": "High School", "gender_bias": {"female": 0.6, "male": 0.4}, "industry": "Retail"},
+    {"name": "Teacher", "min_age": 22, "max_age": 65, "typical_education_level": "Bachelors", "gender_bias": {"female": 0.7, "male": 0.3}, "industry": "Education"},
+    {"name": "Truck Driver", "min_age": 21, "max_age": 65, "typical_education_level": "High School", "gender_bias": {"male": 0.95, "female": 0.05}, "industry": "Transportation"},
+    {"name": "Marketing Manager", "min_age": 25, "max_age": 65, "typical_education_level": "Bachelors", "gender_bias": {"male": 0.5, "female": 0.5}, "industry": "Marketing"},
+    {"name": "Accountant", "min_age": 21, "max_age": 65, "typical_education_level": "Bachelors", "gender_bias": {"male": 0.4, "female": 0.6}, "industry": "Finance"},
+    {"name": "Construction Worker", "min_age": 18, "max_age": 65, "typical_education_level": "High School", "gender_bias": {"male": 0.98, "female": 0.02}, "industry": "Construction"},
+    {"name": "Student", "min_age": 5, "max_age": 30, "typical_education_level": "Varies", "gender_bias": {"male": 0.5, "female": 0.5}, "industry": "Education"},
+    {"name": "Retired", "min_age": 62, "max_age": 100, "typical_education_level": "Varies", "gender_bias": {"male": 0.5, "female": 0.5}, "industry": "None"},
+    {"name": "Unemployed", "min_age": 16, "max_age": 65, "typical_education_level": "Varies", "gender_bias": {"male": 0.5, "female": 0.5}, "industry": "None"},
+    {"name": "Lawyer", "min_age": 25, "max_age": 70, "typical_education_level": "Masters", "gender_bias": {"male": 0.5, "female": 0.5}, "industry": "Legal"},
+    {"name": "Doctor", "min_age": 28, "max_age": 75, "typical_education_level": "Doctorate", "gender_bias": {"male": 0.5, "female": 0.5}, "industry": "Healthcare"}
+  ]
+}

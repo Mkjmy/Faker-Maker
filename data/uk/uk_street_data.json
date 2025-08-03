@@ -1,0 +1,8 @@
+{
+  "street_types": [
+    "Road", "Street", "Avenue", "Close", "Lane", "Drive", "Way", "Gardens", "Grove", "Crescent"
+  ],
+  "sub_commune_units": [
+    "Flat", "Apartment", "House"
+  ]
+}

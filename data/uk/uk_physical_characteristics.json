@@ -1,0 +1,32 @@
+{
+  "physical_characteristics": {
+    "eye_colors": ["Blue", "Brown", "Green", "Hazel", "Grey"],
+    "natural_hair_colors": ["Brown", "Blonde", "Black", "Red", "Auburn", "Gray", "White"],
+    "dyed_hair_colors": ["Blonde", "Brown", "Red", "Black", "Purple", "Blue", "Pink", "Green", "Silver"],
+    "hair_styles": ["Short", "Long", "Straight", "Wavy", "Curly", "Buzz Cut", "Ponytail", "Bun", "Bob", "Pixie"],
+    "height_ranges_cm": {
+      "male": {"min": 155, "max": 210},
+      "female": {"min": 145, "max": 195}
+    },
+    "build_types": ["Slim", "Average", "Athletic", "Muscular", "Heavy", "Curvy", "Petite", "Tall", "Stocky"],
+    "distinguishing_marks": {
+      "tattoos": [
+        {"description": "small symbol", "location": "wrist"},
+        {"description": "tribal", "location": "upper arm"},
+        {"description": "flower", "location": "ankle"},
+        {"description": "full sleeve", "location": "arm"},
+        {"description": "quote", "location": "ribs"}
+      ],
+      "scars": [
+        {"description": "small cut", "location": "hand"},
+        {"description": "surgical", "location": "abdomen"},
+        {"description": "childhood scar", "location": "knee"}
+      ],
+      "birthmarks": [
+        {"description": "a mole", "location": "face"},
+        {"description": "a port-wine stain", "location": "arm"},
+        {"description": "freckles", "location": "face"}
+      ]
+    }
+  }
+}
